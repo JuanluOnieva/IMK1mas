@@ -213,7 +213,7 @@ testimonial:
 # contact
 contact:
   enable: true
-  title: "Contact Matt"
+  title: "Contact Juanlu"
     
   image:
     x: "img/who-am-i/user-juanlu.jpg"
@@ -222,14 +222,14 @@ contact:
   button:
     icon: "icon-mail-fill"
     btnText: "Send Message"
-    btnAction: 'mailto:your-email@gmail.com'
+    btnAction: 'mailto:juanluonieva@gmail.com'
     
   phone:
     title: "Phone Number"
     number: "--"
   email:
     title: "Email"
-    email: '<a href="mailto:your-email@gmail.com">your-email@gmail.com</a>'
+    email: '<a href="mailto:juanluonieva@gmail.com">juanluonieva@gmail.com</a>'
   address:
     title: "Address"
     address: "--"
