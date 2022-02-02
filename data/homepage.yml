@@ -1,12 +1,12 @@
 head:
-  title: "Matt Dancho's Data Science Portfolio"
+  title: "Juanlu Onieva's Data Bioscience Portfolio"
 
 # showcase
 showcase:
   enable: true
-  title: "Hello, I’m Matt Dancho."
-  subtitle: "Data Scientist"
-  description: "Matt is the founder of <a target='_blank' href='https://www.business-science.io/'>Business Science</a>, an online data science school that helps students become a data scientist in 6-months or less."
+  title: "Hello, I’m Juanlu Onieva."
+  subtitle: "Data Scientist and Bioinformatic researcher"
+  description: "Juanlu is ..."
   image:
     x: "img/showcase/data-science.gif"
     _2x: "img/showcase/data-science.gif"
@@ -16,8 +16,8 @@ showcase:
 
   button:
     icon: "icon-mail-fill"
-    btnText: "Contact Matt"
-    URL: "mailto:your-email@gmail.com"
+    btnText: "Contact Juanlu"
+    URL: "mailto:juanluonieva@gmail.com"
 
   socialLinks:
     - icon: "linkedin"
@@ -70,8 +70,8 @@ about:
     btnText: "About Me"
     URL: "https://www.linkedin.com"
   image:
-    x: "img/who-am-i/user-picture-2.jpg"
-    _2x: "img/who-am-i/user-picture-2.jpg"
+    x: "img/who-am-i/user-juanlu.jpg"
+    _2x: "img/who-am-i/user-juanlu.jpg"
 
 # experience
 experience:
@@ -216,8 +216,8 @@ contact:
   title: "Contact Matt"
     
   image:
-    x: "img/who-am-i/user-picture-2.jpg"
-    _2x: "img/who-am-i/user-picture-2.jpg"
+    x: "img/who-am-i/user-juanlu.jpg"
+    _2x: "img/who-am-i/user-juanlu.jpg"
     
   button:
     icon: "icon-mail-fill"
