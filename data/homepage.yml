@@ -21,34 +21,41 @@ showcase:
 
   socialLinks:
     - icon: "linkedin"
-      URL: "https://www.linkedin.com"
+      URL: "https://www.linkedin.com/in/juanluisonieva/?locale=en_US"
 
     - icon: "github"
-      URL: "https://github.com"
+      URL: "https://github.com/JuanluOnieva"
 
     - icon: "twitter"
-      URL: "https://twitter.com"
+      URL: "https://twitter.com/JuanluBioinfo"
 
     - icon: "dribbble"
       URL: "https://dribbble.com"
+      enable: false
 
     - icon: "behance"
       URL: "https://www.behance.net"
+      enable: false
 
     - icon: "youtube"
       URL: "https://www.youtube.com"
+      enable: false
 
     - icon: "instagram"
       URL: "https://www.instagram.com"
+      enable: false
 
     - icon: "facebook"
       URL: "https://www.facebook.com"
+      enable: false
 
     - icon: "codepen"
       URL: "#"
+      enable: false
 
     - icon: "yelp"
       URL: "https://www.yelp.com/"
+      enable: false
 
 # about
 about:
@@ -90,15 +97,11 @@ experience:
 
     - title: "Junior Bioinformatics"
       company: "IBIMA - Translational Research in Cancer Immunotherapy"
-      duration: "Feb 2020 - Present"
+      duration: "Jun 2019 - Present"
 
     - title: "Junior Bioinformatics"
       company: "Biomage"
       duration: "2020"
-
-    - title: "Junior Bioinformatics"
-      company: "IBIMA - Cancer Molecular Biology Laboratory"
-      duration: "Jun 2019 - Feb 2020"
       
     - title: "CICERONE Bioinformatics"
       company: "CNIC - Nuclear Receptor Signaling"
@@ -111,11 +114,11 @@ education:
   items:
     - university: "University of Málaga"
       year: "2021-Present"
-      degree: "Phd in Biomedicine, Translational Research, and  E-Health Technologies"
+      degree: "Phd of Biomedicine, Translational Research, and  E-Health Technologies"
 
     - university: "University of Carlos III of Madrid"
       year: "2019-2020"
-      degree: "Master if Statistics for Data Science"
+      degree: "Master of Statistics for Data Science"
       
     - university: "University of Málaga"
       year: "2015-2019"
