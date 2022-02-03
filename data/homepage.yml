@@ -5,8 +5,8 @@ head:
 showcase:
   enable: true
   title: "Hello, I’m Juanlu Onieva."
-  subtitle: "Data Scientist and Bioinformatic researcher"
-  description: "Juanlu is ..."
+  subtitle: "Data Scientist | Immuno-oncology researcher"
+  description: "Juanlu is a young bioinformatic data scientist working on immuno-oncology using multi-omics technologies."
   image:
     x: "img/showcase/data-science.gif"
     _2x: "img/showcase/data-science.gif"
@@ -56,19 +56,15 @@ about:
   title: "Who am I?"
   content: 
     <p class="lead">
-    <strong>I love helping data scientists.</strong> My passion is training. But, when I am not making new courses
-    or building software, I enjoy vacationing with my family and friends. 
+    <strong>I love analyzing, solving problems, discovering new tools and packages in data science, talking about bioinformatics, AI and big data.... but most of all sharing knowledge.
     </p>
     <p class="lead">
-    <strong>My area of focus</strong> is applying data science to business. 
-    I create value for companies by understanding the financial
-    cost of problems and delivering a return-on-investment with my solutions. 
-    I enjoy learning, working with stakeholders, and making better decisions with data.
+    <strong>My area of focus</strong> is working on my PhD on the integration of omics in the field of immunotherapy to make his passion his life mission and find answers to current problems such as cancer, through Artificial Intelligence and Machine Learning.
     </p>
   button:
     icon: "icon-smile-fill"
     btnText: "About Me"
-    URL: "https://www.linkedin.com"
+    URL: "https://www.linkedin.com/in/juanluisonieva/?locale=en_US"
   image:
     x: "img/who-am-i/user-juanlu.jpg"
     _2x: "img/who-am-i/user-juanlu.jpg"
@@ -77,52 +73,59 @@ about:
 experience:
   enable: true
   title: "Experience"
-  description: "Over 15+ years of experience working with companies from all over the world. I design & develop data science products to help businesses increase profitability and improve customer experience."
+  description: "With only 2 years of experience I have been involved in several H2020 proyects with results published in AJCR (American Journal of Cancer Research). But my professional activity is not only in the public sector but also in the private sector by working on my own projects and developing my skills in data analysis in Startups in the E-Health sector."
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
-    URL: "https://www.linkedin.com/"
+    URL: "https://www.linkedin.com/in/juanluisonieva/?locale=en_US"
   button2:
     icon: "icon-profile-fill"
     btnText: "Download My Resume"
-    URL: "/cv/resume-matt.pdf"
+    URL: "/cv/cva_JOnieva_ingles.pdf"
 
   items:
-    - title: "Director of Product Engineering & Market Development"
-      company: "Bonney Forge"
-      duration: "Jan 2017 - Aug 2018"
+    - title: "Phd in Bioinformatics"
+      company: "University of Málaga"
+      duration: "Nov 2021 - Present"
 
-    - title: "Manager of Sales Engineering"
-      company: "Bonney Forge"
-      duration: "Mar 2014 - Jan 2017"
+    - title: "Junior Bioinformatics"
+      company: "IBIMA - Translational Research in Cancer Immunotherapy"
+      duration: "Feb 2020 - Present"
 
-    - title: "Manager of Product Engineering"
-      company: "Bonney Forge"
-      duration: "Nov 2011 - Mar 2014"
+    - title: "Junior Bioinformatics"
+      company: "Biomage"
+      duration: "2020"
+
+    - title: "Junior Bioinformatics"
+      company: "IBIMA - Cancer Molecular Biology Laboratory"
+      duration: "Jun 2019 - Feb 2020"
+      
+    - title: "CICERONE Bioinformatics"
+      company: "CNIC - Nuclear Receptor Signaling"
+      duration: "Jun 2018 - Sep 2018"
 
 # education
 education:
   enable: true
   title: "Education"
   items:
-    - university: "Penn State University"
-      year: "2014-2015"
-      degree: "Master of Business Administration (MBA)"
+    - university: "University of Málaga"
+      year: "2021-Present"
+      degree: "Phd in Biomedicine, Translational Research, and  E-Health Technologies"
 
-    - university: "University of Pittsburgh"
-      year: "2008-2010"
-      degree: "Master of Industrial Engineering"
+    - university: "University of Carlos III of Madrid"
+      year: "2019-2020"
+      degree: "Master if Statistics for Data Science"
       
-    - university: "Penn State University"
-      year: "2002-2006"
-      degree: "Bachelor of Mechanical Engineering"
-
+    - university: "University of Málaga"
+      year: "2015-2019"
+      degree: "Bachelor of Health Engineer"
 
 
 # Client & Work
 client_and_work:
   title: "Portfolio"
-  enable: true
+  enable: false
   
   enable_clients: false
   clients:
@@ -183,7 +186,7 @@ client_and_work:
 
 # testimonial
 testimonial:
-  enable: true
+  enable: false
   title: "Testimonials"
   items:
   
@@ -224,15 +227,10 @@ contact:
     btnText: "Send Message"
     btnAction: 'mailto:juanluonieva@gmail.com'
     
-  phone:
-    title: "Phone Number"
-    number: "--"
   email:
     title: "Email"
     email: '<a href="mailto:juanluonieva@gmail.com">juanluonieva@gmail.com</a>'
-  address:
-    title: "Address"
-    address: "--"
+
   
 
 # newsletter
