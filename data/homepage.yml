@@ -29,33 +29,6 @@ showcase:
     - icon: "twitter"
       URL: "https://twitter.com/JuanluBioinfo"
 
-    - icon: "dribbble"
-      URL: "https://dribbble.com"
-      enable: false
-
-    - icon: "behance"
-      URL: "https://www.behance.net"
-      enable: false
-
-    - icon: "youtube"
-      URL: "https://www.youtube.com"
-      enable: false
-
-    - icon: "instagram"
-      URL: "https://www.instagram.com"
-      enable: false
-
-    - icon: "facebook"
-      URL: "https://www.facebook.com"
-      enable: false
-
-    - icon: "codepen"
-      URL: "#"
-      enable: false
-
-    - icon: "yelp"
-      URL: "https://www.yelp.com/"
-      enable: false
 
 # about
 about:
