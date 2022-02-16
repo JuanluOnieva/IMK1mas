@@ -12,6 +12,7 @@ params:
   logo:
     text1: Juanlu
     text2: Onieva
+    img: img/logo.png
   plugins:
     css:
       - URL: css/main.css
