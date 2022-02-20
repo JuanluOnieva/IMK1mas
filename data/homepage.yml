@@ -8,11 +8,11 @@ showcase:
   subtitle: "Data Scientist | Immuno-oncology researcher"
   description: "Juanlu is a young bioinformatic data scientist working on immuno-oncology by integrating multi-omics data."
   image:
-    x: "img/showcase/prueba.gif"
-    _2x: "img/showcase/prueba.gif"
+    x: "img/showcase/data-science.gif"
+    _2x: "img/showcase/data-science.gif"
   imageMobile:
-    x: "img/showcase/prueba.gif"
-    _2x: "img/showcase/prueba.gif"
+    x: "img/showcase/data-science.gif"
+    _2x: "img/showcase/data-science.gif"
 
   button:
     icon: "icon-mail-fill"
