@@ -6,13 +6,13 @@ showcase:
   enable: true
   title: "Hello, I’m Juanlu Onieva."
   subtitle: "Data Scientist | Immuno-oncology researcher"
-  description: "Juanlu is a young bioinformatic data scientist working on immuno-oncology using multi-omics technologies."
+  description: "Juanlu is a young bioinformatic data scientist working on immuno-oncology by integrating multi-omics data."
   image:
-    x: "img/showcase/data-science.gif"
-    _2x: "img/showcase/data-science.gif"
+    x: "img/showcase/prueba.gif"
+    _2x: "img/showcase/prueba.gif"
   imageMobile:
-    x: "img/showcase/data-science.gif"
-    _2x: "img/showcase/data-science.gif"
+    x: "img/showcase/prueba.gif"
+    _2x: "img/showcase/prueba.gif"
 
   button:
     icon: "icon-mail-fill"
