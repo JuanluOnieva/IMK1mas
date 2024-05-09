@@ -5,8 +5,9 @@ head:
 showcase:
   enable: true
   title: "Únete a la lucha contra el cáncer."
-  subtitle: "Apoyemos juntos la investigación en inmunología."
-  description: "IMMUNOMARK es un proyecto dedicado a avanzar en la investigación del cáncer a través de nuevas tecnologías y la inmunoterapia. Únete a nuestra causa y marca la diferencia."
+  subtitle: "Apoyemos juntos la investigación en medicina de precisión."
+  description: "IMMUNOMARK es un proyecto dedicado a avanzar en la investigación del cáncer a través de nuevas tecnologías y la inmunoterapia. Únete a nuestra causa y marca la diferencia. \n
+  Participando, estarás contribuyendo directamente al financiamiento del proyecto IMMUNOAMRK. Cada euro que dones se destinará íntegramente a apoyar esta investigación, ayudando a nuestro equipo a desarrollar biomarcadores que puedan predecir la respuesta de un paciente a ciertos tratamientos de inmunoterapia."
   image:
     x: "img/showcase/immunomark-uno-mas.jpg"
     _2x: "img/showcase/immunomark-uno-mas.jpg"
