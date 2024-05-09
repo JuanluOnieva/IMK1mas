@@ -10,8 +10,8 @@ params:
       x: img/general/business-science-logo.png
   googleAnalyticsID: ''
   logo:
-    text1: Juanlu
-    text2: Onieva
+    text1: IMMUNOMARK
+    text2: 1 MÁS
     img: img/logo3.png
   plugins:
     css:

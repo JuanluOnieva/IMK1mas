@@ -8,11 +8,11 @@ showcase:
   subtitle: "Apoyemos juntos la investigación en inmunología."
   description: "IMMUNOMARK es un proyecto dedicado a avanzar en la investigación del cáncer a través de nuevas tecnologías y la inmunoterapia. Únete a nuestra causa y marca la diferencia."
   image:
-    x: "img/showcase/research-lab.jpg"
-    _2x: "img/showcase/research-lab.jpg"
+    x: "img/showcase/immunomark-uno-mas.jpg"
+    _2x: "img/showcase/immunomark-uno-mas.jpg"
   imageMobile:
-    x: "img/showcase/research-lab.jpg"
-    _2x: "img/showcase/research-lab.jpg"
+    x: "img/showcase/immunomark-uno-mas.jpg"
+    _2x: "img/showcase/immunomark-uno-mas.jpg"
 
   button:
     icon: "icon-donation-fill"
