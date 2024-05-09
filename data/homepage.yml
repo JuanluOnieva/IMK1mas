@@ -6,8 +6,8 @@ showcase:
   enable: true
   title: "Únete a la lucha contra el cáncer."
   subtitle: "Apoyemos juntos la investigación en medicina de precisión."
-  description: "IMMUNOMARK es un proyecto dedicado a avanzar en la investigación del cáncer a través de nuevas tecnologías y la inmunoterapia. Únete a nuestra causa y marca la diferencia. \n
-  Participando, estarás contribuyendo directamente al financiamiento del proyecto IMMUNOAMRK. Cada euro que dones se destinará íntegramente a apoyar esta investigación, ayudando a nuestro equipo a desarrollar biomarcadores que puedan predecir la respuesta de un paciente a ciertos tratamientos de inmunoterapia."
+  description: "IMMUNOMARK es un proyecto dedicado a avanzar en la investigación del cáncer a través de nuevas tecnologías y la inmunoterapia.
+  Cada euro que dones se destinará íntegramente a apoyar esta investigación. Únete a nuestra causa y marca la diferencia."
   image:
     x: "img/showcase/immunomark-uno-mas.jpg"
     _2x: "img/showcase/immunomark-uno-mas.jpg"
@@ -42,8 +42,8 @@ about:
     URL: "https://www.linkedin.com/in/immunomark"
 
   image:
-    x: "img/who-we-are/team.jpg"
-    _2x: "img/who-we-are/team.jpg"
+    x: "img/showcase/team.jpg"
+    _2x: "img/showcase/team.jpg"
 
 # experience
 experience:
@@ -74,8 +74,8 @@ contact:
   title: "Contacta con nosotros"
     
   image:
-    x: "img/contact/contact-us.jpg"
-    _2x: "img/contact/contact-us.jpg"
+    x: "img/showcase/logo.jpeg"
+    _2x: "img/showcase/logo.jpeg"
     
   button:
     icon: "icon-mail-fill"
