@@ -31,21 +31,21 @@ params:
 menu:
   footer:
     - URL: '#about'
-      name: About
+      name: ¿Quiénes somos?
       weight: 2
     - URL: '#experience'
-      name: Experience
+      name: Nuestra Experiencia
       weight: 3
     - URL: '#contact'
-      name: Contact
+      name: Contacto
       weight: 4
   header:
     - URL: '#about'
-      name: About
+      name: ¿Quiénes somos?
       weight: 2
     - URL: '#experience'
-      name: Experience
+      name: Nuestra Experiencia
       weight: 3
     - URL: '#contact'
-      name: Contact
+      name: Contacto
       weight: 4
