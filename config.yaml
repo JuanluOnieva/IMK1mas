@@ -11,7 +11,7 @@ params:
   googleAnalyticsID: ''
   logo:
     text1: IMMUNOMARK
-    text2: 1 MÁS
+    text2: UNO MÁS
     img: img/logo3.png
   plugins:
     css:
@@ -25,19 +25,16 @@ params:
   sections:
     - showcase
     - about
-    - client-and-work
     - experience
-    - education
-    - testimonial
     - contact
-    - newsletter
+
 menu:
   footer:
     - URL: '#about'
       name: About
       weight: 2
-    - URL: '#portfolio'
-      name: Portfolio
+    - URL: '#experience'
+      name: Experience
       weight: 3
     - URL: '#contact'
       name: Contact
@@ -46,8 +43,8 @@ menu:
     - URL: '#about'
       name: About
       weight: 2
-    - URL: '#portfolio'
-      name: Portfolio
+    - URL: '#experience'
+      name: Experience
       weight: 3
     - URL: '#contact'
       name: Contact
