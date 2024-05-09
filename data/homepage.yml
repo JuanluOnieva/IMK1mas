@@ -1,222 +1,86 @@
 head:
-  title: "Juanlu Onieva's Data Bioscience Portfolio"
+  title: "IMMUNOMARK: POR UNO MÁS"
 
 # showcase
 showcase:
   enable: true
-  title: "Hello, I’m Juanlu Onieva."
-  subtitle: "Data Scientist | Immuno-oncology researcher"
-  description: "Juanlu is a young bioinformatic data scientist working on immuno-oncology by integrating multi-omics data."
+  title: "Únete a la lucha contra el cáncer."
+  subtitle: "Apoyemos juntos la investigación en inmunología."
+  description: "IMMUNOMARK es un proyecto dedicado a avanzar en la investigación del cáncer a través de nuevas tecnologías y la inmunoterapia. Únete a nuestra causa y marca la diferencia."
   image:
-    x: "img/showcase/data-science.gif"
-    _2x: "img/showcase/data-science.gif"
+    x: "img/showcase/research-lab.jpg"
+    _2x: "img/showcase/research-lab.jpg"
   imageMobile:
-    x: "img/showcase/data-science.gif"
-    _2x: "img/showcase/data-science.gif"
+    x: "img/showcase/research-lab.jpg"
+    _2x: "img/showcase/research-lab.jpg"
 
   button:
-    icon: "icon-mail-fill"
-    btnText: "Contact Juanlu"
-    URL: "mailto:juanluonieva@gmail.com"
+    icon: "icon-donation-fill"
+    btnText: "Haz una donación"
+    URL: "mailto:donaciones@immunomark.org"
 
   socialLinks:
     - icon: "linkedin"
-      URL: "https://www.linkedin.com/in/juanluisonieva/?locale=en_US"
-
-    - icon: "github"
-      URL: "https://github.com/JuanluOnieva"
+      URL: "https://www.linkedin.com/in/immunomark"
 
     - icon: "twitter"
-      URL: "https://twitter.com/JuanluBioinfo"
-
+      URL: "https://twitter.com/immunomark"
 
 # about
 about:
   enable: true
-  title: "Who am I?"
+  title: "¿Quiénes somos?"
   content: 
     <p class="lead">
-    <strong>I love analyzing, solving problems, discovering new tools and packages in data science, talking about bioinformatics, AI and big data.... but most of all sharing knowledge.
-    </p>
+    <strong>Somos un equipo comprometido con la ciencia y la innovación, dedicado a descubrir nuevas soluciones en la lucha contra el cáncer.</p>
     <p class="lead">
-    <strong>My area of focus</strong> is working on my PhD on the integration of omics in the field of immunotherapy to make his passion his life mission and find answers to current problems such as cancer, through Artificial Intelligence and Machine Learning.
-    </p>
+    <strong>Nuestro enfoque</strong> es utilizar la integración de datos omicos para avanzar en el campo de la inmunoterapia y ofrecer nuevas esperanzas para tratamientos más efectivos.</p>
   button:
-    icon: "icon-smile-fill"
-    btnText: "About Me"
-    URL: "https://www.linkedin.com/in/juanluisonieva/?locale=en_US"
+    icon: "icon-info-fill"
+    btnText: "Más sobre nosotros"
+    URL: "https://www.linkedin.com/in/immunomark"
+
   image:
-    x: "img/who-am-i/user-juanlu.jpg"
-    _2x: "img/who-am-i/user-juanlu.jpg"
+    x: "img/who-we-are/team.jpg"
+    _2x: "img/who-we-are/team.jpg"
 
 # experience
 experience:
   enable: true
-  title: "Experience"
-  description: "With only 2 years of experience I have been involved in several H2020 proyects with results published in AJCR (American Journal of Cancer Research). But my professional activity is not only in the public sector but also in the private sector by working on my own projects and developing my skills in data analysis in Startups in the E-Health sector."
+  title: "Nuestra Experiencia"
+  description: "Con experiencia en proyectos internacionales y colaboraciones en sectores público y privado, estamos a la vanguardia de la investigación del cáncer."
   button:
     icon: "icon-linkedin-fill"
-    btnText: "Linkedin"
-    URL: "https://www.linkedin.com/in/juanluisonieva/?locale=en_US"
+    btnText: "Conoce nuestro trabajo"
+    URL: "https://www.linkedin.com/in/immunomark"
   button2:
     icon: "icon-profile-fill"
-    btnText: "Download My Resume"
-    URL: "/cv/cva_JOnieva_ingles.pdf"
+    btnText: "Descarga nuestro informe"
+    URL: "/reports/IMMUNOMARK_Report.pdf"
 
   items:
-    - title: "Phd in Bioinformatics"
-      company: "University of Málaga"
-      duration: "Nov 2021 - Present"
+    - title: "Investigaciones Publicadas"
+      company: "Journal of ImmunoTherapy of Cancer"
+      duration: "Últimos 5 años"
 
-    - title: "Junior Bioinformatics"
-      company: "IBIMA - Translational Research in Cancer Immunotherapy"
-      duration: "Jun 2019 - Present"
-
-    - title: "Junior Bioinformatics"
-      company: "Biomage"
-      duration: "2020"
-      
-    - title: "CICERONE Bioinformatics"
-      company: "CNIC - Nuclear Receptor Signaling"
-      duration: "Jun 2018 - Sep 2018"
-
-# education
-education:
-  enable: true
-  title: "Education"
-  items:
-    - university: "University of Málaga"
-      year: "2021-Present"
-      degree: "Phd of Biomedicine, Translational Research, and  E-Health Technologies"
-
-    - university: "University of Carlos III of Madrid"
-      year: "2019-2020"
-      degree: "Master of Statistics for Data Science"
-      
-    - university: "Charles University of Prague"
-      year: "2017-2018"
-      degree: "Bachelor of Health Engineer (ERASMUS)"
-
-    - university: "University of Málaga"
-      year: "2015-2019"
-      degree: "Bachelor of Health Engineer"
-
-
-# Client & Work
-client_and_work:
-  title: "Portfolio"
-  enable: false
-  
-  enable_clients: false
-  clients:
-    - logo:
-        x: "img/clients/asgardia.png"
-        _2x: "img/clients/asgardia@2x.png"
-      alt: "Asgardia"
-
-    - logo:
-        x: "img/clients/earth-2.png"
-        _2x: "img/clients/earth-2@2x.png"
-      alt: "Earth 2.0"
-
-    - logo:
-        x: "img/clients/goldline.png"
-        _2x: "img/clients/goldline@2x.png"
-      alt: "Goldline"
-
-    - logo:
-        x: "img/clients/kanba.png"
-        _2x: "img/clients/kanba@2x.png"
-      alt: "Kanba"
-
-    - logo:
-        x: "img/clients/zoo-tv.png"
-        _2x: "img/clients/zoo-tv@2x.png"
-      alt: "Zoo"
-
-    - logo:
-        x: "img/clients/ztos.png"
-        _2x: "img/clients/ztos@2x.png"
-      alt: "Ztos"
-
-  works:
-    - title: "Sales Demand Forecast Application"
-      description: "This application helps Marketing & Sales identify trends in product demand. The application is built in my Shiny Predictive Dashboards Course using Machine Learning."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Launch Application"
-        URL: "https://business-science.shinyapps.io/sales_dashboard_demand_forecast/"
-      image:
-        x: "img/works/app_sales_demand_forecast.jpg"
-        _2x: "img/works/app_sales_demand_forecast.jpg"
-      is_even: true
-
-    - title: "Product Price Recommendation"
-      description: "This application helps Marketing & R&D Teams determine product gaps and price new products to fill the gaps using machine learning. The application is built in my Shiny Predictive Dashboards Course using Machine Learning."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Launch Application"
-        URL: "https://business-science.shinyapps.io/cannondale_price_prediction_app/"
-      image:
-        x: "img/works/app_cannondale_price_prediction.jpg"
-        _2x: "img/works/app_cannondale_price_prediction.jpg"
-      is_even: false
-
-    
-
-# testimonial
-testimonial:
-  enable: false
-  title: "Testimonials"
-  items:
-  
-    - name: "Justin Kurland, PhD"
-      position: "Lead Data Scientist, Northwestern Mutual"
-      content: "In less than 6 months after starting my first Business Science Course with Matt I had fully transitioned into a role as a lead data scientist and my life is better for it!"
-      image:
-        x: "img/testimonials/justin.jpg"
-        _2x: "img/testimonials/justin.jpg"
-        
-    - name: "Chris Selig"
-      position: "Data Scientist"
-      content: "Because of all the R courses Matt Dancho has provided, I landed my first Data Scientist role. Setting up shiny dashboards in AWS was extremely helpful during my interview."
-      image:
-        x: "img/testimonials/chris.jpg"
-        _2x: "img/testimonials/chris.jpg"
-
-    
-
-    - name: "Mohana Krishna Chittoor"
-      position: "Lead Data Scientist, Money View"
-      content: "After your entry into my life, I got a 10% pay raise and then after another 6-months of 26%, and in just another 2-months a 40% hike. I can grab a job wherever I want."
-      image:
-        x: "img/testimonials/mohana.jpg"
-        _2x: "img/testimonials/mohana.jpg"
+    - title: "Proyectos de Innovación"
+      company: "Colaboración Internacional"
+      duration: "2020 - Presente"
 
 # contact
 contact:
   enable: true
-  title: "Contact Juanlu"
+  title: "Contacta con nosotros"
     
   image:
-    x: "img/who-am-i/user-juanlu.jpg"
-    _2x: "img/who-am-i/user-juanlu.jpg"
+    x: "img/contact/contact-us.jpg"
+    _2x: "img/contact/contact-us.jpg"
     
   button:
     icon: "icon-mail-fill"
-    btnText: "Send Message"
-    btnAction: 'mailto:juanluonieva@gmail.com'
+    btnText: "Envíanos un mensaje"
+    btnAction: 'mailto:contacto@immunomark.org'
     
   email:
     title: "Email"
-    email: '<a href="mailto:juanluonieva@gmail.com">juanluonieva@gmail.com</a>'
-
-  
-
-# newsletter
-newsletter:
-  enable: false
-  title: "Newsletter subscription"
-  success_message: "Successfully subscribed"
-  error_message: "Error while subscribing."
-  note: "We'll never share your email with anyone else."
+    email: '<a href="mailto:contacto@immunomark.org">contacto@immunomark.org</a>'
