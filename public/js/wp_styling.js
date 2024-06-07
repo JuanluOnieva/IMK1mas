@@ -1108,9 +1108,7 @@ function submitDonation(event, fundraising_local_id, title, id, successUrl, fail
   var lastnameError = 'show-lastname-error-msg-' + id;
   var emailError = 'show-email-error-msg-' + id;
   var otherAmountError = 'show-other-amount-error-msg-' + id;
-  firstnameError.style.display = 'none';
-  lastnameError.style.display = 'none';
-  emailError.style.display = 'none';
+  
   if (otherAmountError) {
     otherAmountError.style.display = 'none';
   }
