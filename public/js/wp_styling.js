@@ -556,7 +556,7 @@ currency_symbol_object[id]
     `;let selected_donation_options='';if(oneTimeCheck!=0){selected_donation_options=donation_options;}else if(oneTimeCheck==0&&monthlyCheck!=0){selected_donation_options=donation_options_monthly;}else if(oneTimeCheck==0&&monthlyCheck==0&&yearlyCheck!=0){selected_donation_options=donation_options_yearly;}
 const donation_window_modal_content=` 
     <!-- Modal content -->
-    <div class="donate-window-content" style="font-family: '${font}' !important;">
+    <div class="donate-window-content" style="font-family: '${font}' !important; min-width: 50% !important">
         <div id="widget-id-${shortcode}" style="display:none;">${id}</div>
         <div id="widget-slug-${id}" style="display:none;">${slug}</div>
         <div id="language-code-${id}" style="display:none;">${language_code}</div>
@@ -871,7 +871,7 @@ showDonationFormOnly==1?'transparent;':'rgb(0,0,0,0.4);'
             }
         
             .donate-window-content {
-                min-width: 50%;
+                min-width: 50% !important;
                 padding: 0 !important;
             }
         }
