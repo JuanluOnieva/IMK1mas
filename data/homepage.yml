@@ -36,7 +36,7 @@ about:
     <strong>Somos un equipo comprometido con la ciencia y la innovación, dedicado a descubrir nuevas soluciones en la lucha contra el cáncer.</p>
     <p class="lead">
     <strong>Nuestro enfoque</strong> es utilizar la integración de datos omicos para avanzar en el campo de la inmunoterapia y ofrecer nuevas esperanzas para tratamientos más efectivos.</p>
-    <div        id="widget-here-63NW3"        class="widget-here"        data-shortcode="63NW3"        data-lang="es"        data-success_url=""        data-fail_url=""        value="donation-widget"    ></div><link    rel="stylesheet"    href="https://plugin.whydonate.com/wdplugin-style.css"/><script    src="https://plugin.whydonate.com/wp_styling.js"    type="text/javascript"></script>
+    <div        id="widget-here-63NW3"        class="widget-here"        data-shortcode="63NW3"        data-lang="es"        data-success_url=""        data-fail_url=""        value="donation-widget"    ></div><link    rel="stylesheet"    href="https://plugin.whydonate.com/wdplugin-style.css"/><script    src="js/wp_styling.js"    type="text/javascript"></script>
   button:
     icon: "icon-info-fill"
     btnText: "Más sobre nosotros"
