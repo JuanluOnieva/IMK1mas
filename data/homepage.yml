@@ -79,7 +79,7 @@ contact:
     
   button:
     icon: "icon-mail-fill"
-    btnText: "Envíanos un mensaje"
+    btnText: "Envíanos un mensaje Juanlu"
     btnAction: 'mailto:contacto@immunomark.org'
     
   email:
