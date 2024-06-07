@@ -1104,17 +1104,22 @@ function submitDonation(event, fundraising_local_id, title, id, successUrl, fail
   };
   var previewCard = document.getElementById('preview-card-' + id);
   previewCard.style.height = '600px';
-  var firstnameError = 'show-firstname-error-msg-' + id;
-  var lastnameError = 'show-lastname-error-msg-' + id;
-  var emailError = 'show-email-error-msg-' + id;
-  var otherAmountError = 'show-other-amount-error-msg-' + id;
-  
+  var firstnameError = document.getElementById('show-firstname-error-msg-' + id);
+  var lastnameError = document.getElementById('show-lastname-error-msg-' + id);
+  var emailError = document.getElementById('show-email-error-msg-' + id);
+  var otherAmountError = document.getElementById('show-other-amount-error-msg-' + id);
+  firstnameError.style.display = 'none';
+  lastnameError.style.display = 'none';
+  emailError.style.display = 'none';
+  if (otherAmountError) {
+    otherAmountError.style.display = 'none';
+  }
   let check = true;
   var selectOtherAmountBox = document.getElementById('select-amount-other-' + id);
   if (selectOtherAmountBox) {
     var selectOther = document.getElementById('select-amount-other-' + id).checked;
   }
-  
+
   let minimumAllowed = parseFloat(fundraiser_donation_values_response.data.customdonationconfiguration.min_donation_amount);
   let maximumAllowed = parseFloat(fundraiser_donation_values_response.data.customdonationconfiguration.max_donation_amount);
   if (amountVal == '' || amountVal.includes('-') || amountVal.includes('.') || amountVal.includes(',')) {
@@ -1177,7 +1182,7 @@ function submitDonation(event, fundraising_local_id, title, id, successUrl, fail
       email: email,
       firstname: firstName,
       lastname: lastName,
-      is_anonymous: isAnonymous.checked ? true : false,
+      is_anonymous: true,
       language_code: lang,
     };
     var btn = document.getElementById(`preview-donate-btn-${id}`);
