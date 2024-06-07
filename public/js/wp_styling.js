@@ -780,17 +780,17 @@ currency_symbol_object[id]
                         `:''
 }
                         <div class="preview-user-info-div" id="review-user-info-div-${id}" style="margin-top: 0px;">
-                        <div class="preview-user-info-firstname-s" id="preview-user-info-firstname-${id}">
+                        <div class="preview-user-info-firstname-s" id="preview-user-info-firstname-${id}" style="height:0px !important">
                             <!-- <p>First Name</p> -->
                             <input type="text" id="firstname-${id}" name="firstName-${id}" placeholder="${_e('First Name',language_code)}" value="Nombre" style="display: none; visibility:hidden; max-height: 0; background-color: white; width: 100%; padding-left:16px !important; height: 0%; font-family: '${font}' !important; font-size: 0px; border-radius: 0px; border: 0px solid !important">
                         </div>
                         <label id="show-firstname-error-msg-${id}" style="display: none; font-size: 10px; color: red">${_e('Must be between',language_code)} 1 ${_e('and',language_code)} 30 ${_e('characters',language_code)}.</label>
-                        <div class="preview-user-info-lastname-s" id="preview-user-info-lastname-${id}">
+                        <div class="preview-user-info-lastname-s" id="preview-user-info-lastname-${id}" style="height:0px !important">
                             <!-- <p>Last Name</p> -->
                             <input type="text" id="lastname-${id}" name="lastName-${id}" placeholder="${_e('Last Name',language_code)}" value="Apellidos" style="display: none; visibility:hidden; max-height: 0; background-color: white; width: 100%; padding-left:16px !important;height: 0%; font-family: '${font}' !important; font-size: 0px; border-radius: 0px; border: 0px solid !important">
                         </div>
                         <label id="show-lastname-error-msg-${id}" style="display: none; font-size: 10px; color: red">${_e('Must be between',language_code)} 1 ${_e('and',language_code)} 30 ${_e('characters',language_code)}.</label>
-                        <div class="preview-user-info-email-s" id="preview-user-info-email-${id}">
+                        <div class="preview-user-info-email-s" id="preview-user-info-email-${id}" style="height:0px !important">
                             <!-- <p>Email</p> -->
                             <input type="text" id="email-${id}" name="email-${id}" placeholder="${_e('Email Address',language_code)}" value="donacion@email.com" style="display: none; visibility:hidden; max-height: 0; background-color: white; width: 100%; padding-left:16px !important;height: 0%; font-family: '${font}' !important; font-size: 0px; border-radius: 0px; border: 0px solid !important">
                         </div>
@@ -804,7 +804,7 @@ tip_enabled?`<div id="tip-box-${id}" class="tip-box" style="display: none; font-
 
                     <div class="preview-user-donate-btn-div" id="preview-user-donate-btn-div-${id}" style="display: flex; flex-direction: column; margin-top: 5px">
                     
-                    <div class="checkbox-if-anonymous-s">
+                    <div class="checkbox-if-anonymous-s" style="display:none !important">
                         <div class="checkbox-if-anonymous-s-checkbox" id="checkbox-if-anonymous-s-checkbox">
                             <input type="checkbox" id="is-anonymous-${id}" class="custom-checkbox default-checkbox-visually-hidden">
                             <label for="is-anonymous-${id}" class="custom-checkbox-label"></label>                        
