@@ -790,9 +790,6 @@ currency_symbol_object[id]
                             <input type="text" id="lastname-${id}" name="lastName-${id}" placeholder="${_e('Last Name',language_code)}" style="background-color: white; width: 100%; padding-left:16px !important;height: 100%; font-family: '${font}' !important; font-size: 14px; border-radius: 0px; border: 1px solid !important">
                         </div>
                         <label id="show-lastname-error-msg-${id}" style="display: none; font-size: 10px; color: red">${_e('Must be between',language_code)} 1 ${_e('and',language_code)} 30 ${_e('characters',language_code)}.</label>
-                        <div class="preview-user-info-email-s" id="preview-user-info-email-${id}">
-                            <!-- <p>Email</p> -->
-                            <input type="text" id="email-${id}" name="email-${id}" placeholder="${_e('Email Address',language_code)}" style="background-color: white; width: 100%; padding-left:16px !important;height: 100%; font-family: '${font}' !important; font-size: 14px; border-radius: 0px; border: 1px solid !important">
                         </div>
                         <label id="show-email-error-msg-${id}" style="display: none; font-size: 10px; color: red">${_e('Please enter a valid email.',language_code)}</label>
                     </div>
