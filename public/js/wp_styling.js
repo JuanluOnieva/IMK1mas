@@ -1108,6 +1108,9 @@ function submitDonation(event, fundraising_local_id, title, id, successUrl, fail
   var lastnameError = 'show-lastname-error-msg-' + id;
   var emailError = 'show-email-error-msg-' + id;
   var otherAmountError = 'show-other-amount-error-msg-' + id;
+  firstnameError.style.display = 'none';
+  lastnameError.style.display = 'none';
+  emailError.style.display = 'none';
   if (otherAmountError) {
     otherAmountError.style.display = 'none';
   }
@@ -1116,7 +1119,7 @@ function submitDonation(event, fundraising_local_id, title, id, successUrl, fail
   if (selectOtherAmountBox) {
     var selectOther = document.getElementById('select-amount-other-' + id).checked;
   }
-
+  
   let minimumAllowed = parseFloat(fundraiser_donation_values_response.data.customdonationconfiguration.min_donation_amount);
   let maximumAllowed = parseFloat(fundraiser_donation_values_response.data.customdonationconfiguration.max_donation_amount);
   if (amountVal == '' || amountVal.includes('-') || amountVal.includes('.') || amountVal.includes(',')) {
