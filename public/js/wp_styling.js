@@ -871,7 +871,7 @@ showDonationFormOnly==1?'transparent;':'rgb(0,0,0,0.4);'
             }
         
             .donate-window-content {
-                min-width: 100%;
+                min-width: 50%;
                 padding: 0 !important;
             }
         }

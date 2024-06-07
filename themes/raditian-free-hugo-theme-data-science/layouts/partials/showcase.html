@@ -25,7 +25,7 @@
             {{ .Site.Data.homepage.showcase.button.btnText }}
         </a>
       </div>
-      <div class="col-12 col-sm-12 col-md-8 col-lg-7 col-xl-6 width=device-width, initial-scale=1.0">
+      <div class="col-12 col-sm-12 col-md-8 col-lg-7 col-xl-6" style="max-width:50%;  min-width: 50%;">
          <p class="lead">
             {{ .Site.Data.homepage.showcase.content | safeHTML }}
         </p>
@@ -42,7 +42,7 @@
     </div>
   </div>
   <div class="rad-showcase__bg rad-showcase__bg--mobile with">
-         <p class="lead" stype="width:70%">
+         <p class="lead" style="width:70%">
             {{ .Site.Data.homepage.showcase.content | safeHTML }}
         </p>
   </div>
