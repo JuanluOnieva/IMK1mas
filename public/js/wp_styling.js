@@ -1109,9 +1109,6 @@ function submitDonation(event, fundraising_local_id, title, id, successUrl, fail
   var emailError = 'show-email-error-msg-' + id;
   var otherAmountError = 'show-other-amount-error-msg-' + id;
   
-  if (otherAmountError) {
-    otherAmountError.style.display = 'none';
-  }
   let check = true;
   var selectOtherAmountBox = document.getElementById('select-amount-other-' + id);
   if (selectOtherAmountBox) {
