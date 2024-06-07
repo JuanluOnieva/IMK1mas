@@ -11413,7 +11413,7 @@ input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, tex
     align-items: center;
     position: relative;
     margin-bottom: -20px;
-    padding-top:120px
+    padding-top:120px !important
 }
 
 .rad-showcase__bg {

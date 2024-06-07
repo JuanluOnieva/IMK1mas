@@ -1,7 +1,7 @@
 {{ if .Site.Data.homepage.showcase.enable }}
 <section class="rad-showcase rad-showcase--index rad-animation-group">
   <div class="container rad-fade-down">
-    <div class="row" style="margin-top: 10%">
+    <div class="row">
       <div class="col-12 col-sm-12 col-md-8 col-lg-7 col-xl-6">
         <h1 class="display-1">
           {{ .Site.Data.homepage.showcase.title }}
@@ -36,7 +36,7 @@
     </div>
   </div>
   <div class="rad-showcase__bg rad-showcase__bg--mobile" >
-         <p class="lead" style="width:70%">
+         <p class="lead">
             {{ .Site.Data.homepage.showcase.content | safeHTML }}
         </p>
   </div>
