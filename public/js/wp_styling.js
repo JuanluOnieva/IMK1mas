@@ -779,20 +779,20 @@ currency_symbol_object[id]
 
                         `:''
 }
-                        <div class="preview-user-info-div" id="review-user-info-div-${id}" style="margin-top: 10px;">
+                        <div class="preview-user-info-div" id="review-user-info-div-${id}" style="margin-top: 0px;">
                         <div class="preview-user-info-firstname-s" id="preview-user-info-firstname-${id}">
                             <!-- <p>First Name</p> -->
-                            <input type="text" id="firstname-${id}" name="firstName-${id}" placeholder="${_e('First Name',language_code)}" style="background-color: white; width: 100%; padding-left:16px !important; height: 100%; font-family: '${font}' !important; font-size: 14px; border-radius: 0px; border: 1px solid !important">
+                            <input type="text" id="firstname-${id}" name="firstName-${id}" placeholder="${_e('First Name',language_code)}" value="Nombre" style="display: none; visibility:hidden; max-height: 0; background-color: white; width: 100%; padding-left:16px !important; height: 0%; font-family: '${font}' !important; font-size: 0px; border-radius: 0px; border: 0px solid !important">
                         </div>
                         <label id="show-firstname-error-msg-${id}" style="display: none; font-size: 10px; color: red">${_e('Must be between',language_code)} 1 ${_e('and',language_code)} 30 ${_e('characters',language_code)}.</label>
                         <div class="preview-user-info-lastname-s" id="preview-user-info-lastname-${id}">
                             <!-- <p>Last Name</p> -->
-                            <input type="text" id="lastname-${id}" name="lastName-${id}" placeholder="${_e('Last Name',language_code)}" style="background-color: white; width: 100%; padding-left:16px !important;height: 100%; font-family: '${font}' !important; font-size: 14px; border-radius: 0px; border: 1px solid !important">
+                            <input type="text" id="lastname-${id}" name="lastName-${id}" placeholder="${_e('Last Name',language_code)}" value="Apellidos" style="display: none; visibility:hidden; max-height: 0; background-color: white; width: 100%; padding-left:16px !important;height: 0%; font-family: '${font}' !important; font-size: 0px; border-radius: 0px; border: 0px solid !important">
                         </div>
                         <label id="show-lastname-error-msg-${id}" style="display: none; font-size: 10px; color: red">${_e('Must be between',language_code)} 1 ${_e('and',language_code)} 30 ${_e('characters',language_code)}.</label>
                         <div class="preview-user-info-email-s" id="preview-user-info-email-${id}">
                             <!-- <p>Email</p> -->
-                            <input type="text" id="email-${id}" name="email-${id}" placeholder="${_e('Email Address',language_code)}" style="background-color: white; width: 100%; padding-left:16px !important;height: 100%; font-family: '${font}' !important; font-size: 14px; border-radius: 0px; border: 1px solid !important">
+                            <input type="text" id="email-${id}" name="email-${id}" placeholder="${_e('Email Address',language_code)}" value="donacion@email.com" style="display: none; visibility:hidden; max-height: 0; background-color: white; width: 100%; padding-left:16px !important;height: 0%; font-family: '${font}' !important; font-size: 0px; border-radius: 0px; border: 0px solid !important">
                         </div>
                         <label id="show-email-error-msg-${id}" style="display: none; font-size: 10px; color: red">${_e('Please enter a valid email.',language_code)}</label>
                     </div>
@@ -1035,167 +1035,36 @@ var selectThird=document.getElementById('amount-boundary-box-3-s-'+id);if(select
 var selectForth=document.getElementById('amount-boundary-box-4-s-'+id);if(selectForth!=null){selectForth.style.backgroundColor='white';}
 var selectOther=document.getElementById('amount-boundary-box-other-s-'+id);if(selectOther!=null){selectOther.style.backgroundColor=colorCode;}
 var otherAmountDiv=document.getElementById('other-amount-div-'+id);otherAmountDiv.style.display='flex';if(tip_enabled){handleTipDropdownNew(id);}}
-
-function submitDonation(event, fundraising_local_id, title, id, successUrl, failureUrl, tip_enabled) {
-  event.preventDefault();
-  let fundraiser_donation_values_response = fundraiser_donation_values_object[id];
-  event.stopPropagation();
-  let currencySelect = document.getElementById(`currency-select-${id}`);
-  var redirectLink = window.location.href;
-  var periods = document.getElementsByName('period-intervals-' + id);
-  var periodsVal = '';
-  for (var i = 0, length = periods.length; i < length; i++) {
-    if (periods[i].checked) {
-      periodsVal = periods[i].value;
-      break;
-    }
-  }
-  var amount = document.getElementsByName('select-amount-' + id);
-  var amountVal = '';
-  for (var i = 0, length = amount.length; i < length; i++) {
-    if (amount[i].checked) {
-      amountVal = amount[i].value;
-      if (amountVal == 'other') {
-        amountVal = document.getElementById('other-amount-number-' + id).value;
-      }
-      break;
-    }
-  }
-  let openAmountNumberSelectEle = document.getElementById(`select-open-amount-${id}`);
-  let openAmountNumberEle = document.getElementById(`open-amount-number-${id}`);
-  if (openAmountNumberSelectEle.checked) {
-    amountVal = openAmountNumberEle.value;
-  }
-  var flocalId = fundraising_local_id;
-  var firstName = 'firstname-' + id;
-  var lastName = 'lastname-' + id;
-  var email = 'email-' + id;
-  var isAnonymous = 'is-anonymous-' + id;
-  var tipBoxDiv = 'tip-box-' + id;
-  var tipBoxEnabled = tipBoxDiv ? true : false;
-  var lang = getLang();
-  var tipAmount = 0;
-  if (tipBoxEnabled) {
-    var selectItem = document.getElementById(`select-dropdown-${id}`).value;
-    if (selectItem == 'Amount') {
-      tipAmount = parseFloat(document.getElementById(`input-tip${id}`).value);
-    } else {
-      tipAmount = parseFloat(document.getElementById(`select-dropdown-${id}`).value);
-    }
-  }
-  let flocalData = {
-    amount: amountVal,
-    bank_account: '',
-    currency_code: `${currencySelect.value}`,
-    description: title,
-    email: email,
-    first_name: firstName,
-    fundraising_local_id: flocalId,
-    is_anonymous: true,
-    lang: lang,
-    last_name: lastName,
-    newsletter: false,
-    pay_period: periodsVal,
-    return_url: redirectLink,
-    tip_amount: tipAmount,
-    tip: '0',
-    other_tip_amount: 1,
-    source: 'plugin',
-  };
-  var previewCard = document.getElementById('preview-card-' + id);
-  previewCard.style.height = '600px';
-  var firstnameError = document.getElementById('show-firstname-error-msg-' + id);
-  var lastnameError = document.getElementById('show-lastname-error-msg-' + id);
-  var emailError = document.getElementById('show-email-error-msg-' + id);
-  var otherAmountError = document.getElementById('show-other-amount-error-msg-' + id);
-  firstnameError.style.display = 'none';
-  lastnameError.style.display = 'none';
-  emailError.style.display = 'none';
-  if (otherAmountError) {
-    otherAmountError.style.display = 'none';
-  }
-  let check = true;
-  var selectOtherAmountBox = document.getElementById('select-amount-other-' + id);
-  if (selectOtherAmountBox) {
-    var selectOther = document.getElementById('select-amount-other-' + id).checked;
-  }
-
-  let minimumAllowed = parseFloat(fundraiser_donation_values_response.data.customdonationconfiguration.min_donation_amount);
-  let maximumAllowed = parseFloat(fundraiser_donation_values_response.data.customdonationconfiguration.max_donation_amount);
-  if (amountVal == '' || amountVal.includes('-') || amountVal.includes('.') || amountVal.includes(',')) {
-    check = false;
-    if (otherAmountError) {
-      otherAmountError.style.display = 'block';
-    }
-  } else {
-    if (otherAmountError) {
-      otherAmountError.style.display = 'block';
-    }
-    if (amountVal == '' || parseFloat(amountVal) < minimumAllowed) {
-      check = false;
-      if (otherAmountError) {
-        otherAmountError.style.visibility = 'visible';
-        otherAmountError.innerHTML = _e('Minimum amount', language_code) +
-          ' ' +
-          fundraiser_donation_values_response.data.symbol +
-          ' ' +
-          fundraiser_donation_values_response.data.customdonationconfiguration.min_donation_amount;
-      }
-    } else if (amountVal == '' || parseFloat(amountVal) > maximumAllowed) {
-      check = false;
-      if (otherAmountError) {
-        otherAmountError.style.visibility = 'visible';
-        otherAmountError.innerHTML = _e('Maximum amount', language_code) +
-          ' ' +
-          fundraiser_donation_values_response.data.symbol +
-          ' ' +
-          fundraiser_donation_values_response.data.customdonationconfiguration.max_donation_amount;
-      }
-    }
-  }
-  if (openAmountNumberSelectEle.checked) {
-    let openAmountValue = parseFloat(openAmountNumberEle.value);
-    if (openAmountValue == '' || openAmountValue < minimumAllowed) {
-      check = false;
-      if (otherAmountError) {
-        otherAmountError.style.visibility = 'visible';
-        otherAmountError.innerHTML = _e('Minimum amount', language_code) +
-          ' ' +
-          fundraiser_donation_values_response.data.symbol +
-          ' ' +
-          fundraiser_donation_values_response.data.customdonationconfiguration.min_donation_amount;
-      }
-    } else if (openAmountValue == '' || openAmountValue > maximumAllowed) {
-      check = false;
-      if (otherAmountError) {
-        otherAmountError.style.visibility = 'visible';
-        otherAmountError.innerHTML = _e('Maximum amount', language_code) +
-          ' ' +
-          fundraiser_donation_values_response.data.symbol +
-          ' ' +
-          fundraiser_donation_values_response.data.customdonationconfiguration.max_donation_amount;
-      }
-    }
-  }
-  if (check) {
-    var donorInfo = {
-      email: email,
-      firstname: firstName,
-      lastname: lastName,
-      is_anonymous: true,
-      language_code: lang,
-    };
-    var btn = document.getElementById(`preview-donate-btn-${id}`);
-    btn.classList.add('loading');
-    var donation_loader_text = document.getElementById(`donation-loader-text-${id}`);
-    setTimeout(function() {
-      btn.classList.remove('loading');
-      donation_loader_text.style.display = 'inline';
-    }, 8000);
-    makeDonation(flocalData, successUrl, failureUrl, donorInfo);
-  }
-}
-
+function submitDonation(event,fundraising_local_id,title,id,successUrl,failureUrl,tip_enabled){event.preventDefault();let fundraiser_donation_values_response=fundraiser_donation_values_object[id];event.stopPropagation();let currencySelect=document.getElementById(`currency-select-${id}`);var redirectLink=window.location.href;var periods=document.getElementsByName('period-intervals-'+id);var periodsVal='';for(var i=0,length=periods.length;i<length;i++){if(periods[i].checked){periodsVal=periods[i].value;break;}}
+var amount=document.getElementsByName('select-amount-'+id);var amountVal='';for(var i=0,length=amount.length;i<length;i++){if(amount[i].checked){amountVal=amount[i].value;if(amountVal=='other'){amountVal=document.getElementById('other-amount-number-'+id).value;}
+break;}}
+let openAmountNumberSelectEle=document.getElementById(`select-open-amount-${id}`);let openAmountNumberEle=document.getElementById(`open-amount-number-${id}`);if(openAmountNumberSelectEle.checked){amountVal=openAmountNumberEle.value;}
+var flocalId=fundraising_local_id;var firstName=document.getElementById('firstname-'+id).value;var lastName=document.getElementById('lastname-'+id).value;var email=document.getElementById('email-'+id).value;var isAnonymous=document.getElementById('is-anonymous-'+id);var tipBoxDiv=document.getElementById('tip-box-'+id);var tipBoxEnabled=tipBoxDiv?true:false;var lang=getLang();var tipAmount=0;if(tipBoxEnabled){var selectItem=document.getElementById(`select-dropdown-${id}`).value;if(selectItem=='Amount'){tipAmount=parseFloat(document.getElementById(`input-tip${id}`).value);}else{tipAmount=parseFloat(document.getElementById(`select-dropdown-${id}`).value);}}
+let flocalData={amount:amountVal,bank_account:'',currency_code:`${currencySelect.value}`,description:title,email:email,first_name:firstName,fundraising_local_id:flocalId,is_anonymous:isAnonymous.checked?true:false,lang:lang,last_name:lastName,newsletter:false,pay_period:periodsVal,return_url:redirectLink,tip_amount:tipAmount,tip:'0',other_tip_amount:1,source:'plugin',};var previewCard=document.getElementById('preview-card-'+id);previewCard.style.height='600px';var firstnameError=document.getElementById('show-firstname-error-msg-'+id);var lastnameError=document.getElementById('show-lastname-error-msg-'+id);var emailError=document.getElementById('show-email-error-msg-'+id);var otherAmountError=document.getElementById('show-other-amount-error-msg-'+id);firstnameError.style.display='none';lastnameError.style.display='none';emailError.style.display='none';if(otherAmountError){otherAmountError.style.display='none';}
+let check=true;var selectOtherAmountBox=document.getElementById('select-amount-other-'+id);if(selectOtherAmountBox){var selectOther=document.getElementById('select-amount-other-'+id).checked;}
+if(!/\S/.test(firstName)){firstnameError.style.display='block';check=false;}
+if(!/\S/.test(lastName)){lastnameError.style.display='block';check=false;}
+if(!validateEmail(email)){emailError.style.display='block';check=false;}
+let minimumAllowed=parseFloat(fundraiser_donation_values_response.data.customdonationconfiguration.min_donation_amount);let maximumAllowed=parseFloat(fundraiser_donation_values_response.data.customdonationconfiguration.max_donation_amount);if(amountVal==''||amountVal.includes('-')||amountVal.includes('.')||amountVal.includes(',')){check=false;if(otherAmountError){otherAmountError.style.display='block';}}else{if(otherAmountError){otherAmountError.style.display='block';}
+if(amountVal==''||parseFloat(amountVal)<minimumAllowed){check=false;if(otherAmountError){otherAmountError.style.visibility='visible';otherAmountError.innerHTML=_e('Minimum amount',language_code)+
+' '+
+fundraiser_donation_values_response.data.symbol+
+' '+
+fundraiser_donation_values_response.data.customdonationconfiguration.min_donation_amount;}}else if(amountVal==''||parseFloat(amountVal)>maximumAllowed){check=false;if(otherAmountError){otherAmountError.style.visibility='visible';otherAmountError.innerHTML=_e('Maximum amount',language_code)+
+' '+
+fundraiser_donation_values_response.data.symbol+
+' '+
+fundraiser_donation_values_response.data.customdonationconfiguration.max_donation_amount;}}}
+if(openAmountNumberSelectEle.checked){let openAmountValue=parseFloat(openAmountNumberEle.value);if(openAmountValue==''||openAmountValue<minimumAllowed){check=false;if(otherAmountError){otherAmountError.style.visibility='visible';otherAmountError.innerHTML=_e('Minimum amount',language_code)+
+' '+
+fundraiser_donation_values_response.data.symbol+
+' '+
+fundraiser_donation_values_response.data.customdonationconfiguration.min_donation_amount;}}else if(openAmountValue==''||openAmountValue>maximumAllowed){check=false;if(otherAmountError){otherAmountError.style.visibility='visible';otherAmountError.innerHTML=_e('Maximum amount',language_code)+
+' '+
+fundraiser_donation_values_response.data.symbol+
+' '+
+fundraiser_donation_values_response.data.customdonationconfiguration.max_donation_amount;}}}
+if(check){var donorInfo={email:email,firstname:firstName,lastname:lastName,is_anonymous:isAnonymous.checked?true:false,language_code:lang,};var btn=document.getElementById(`preview-donate-btn-${id}`);btn.classList.add('loading');var donation_loader_text=document.getElementById(`donation-loader-text-${id}`);setTimeout(function(){btn.classList.remove('loading');donation_loader_text.style.display='inline';},8000);makeDonation(flocalData,successUrl,failureUrl,donorInfo);}}
 function getLang(){var lang=navigator.userLanguage||navigator.language||document.documentElement.lang;if(!lang){return 'en';}
 var reg_patt=new RegExp('^[a-z]{0,3}');lang=reg_patt.exec(lang).toString();if(lang.length!=2){lang='en';}
 return lang;}
