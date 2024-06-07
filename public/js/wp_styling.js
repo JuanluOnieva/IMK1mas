@@ -562,7 +562,7 @@ const donation_window_modal_content=`
         <div id="language-code-${id}" style="display:none;">${language_code}</div>
 
         <div class="preview preview_box" id="preview-${id}" style="margin-left: ${
-showDonationFormOnly==1?'10%;':'30%;'
+showDonationFormOnly==1?'5%;':'30%;'
 }; ${showDonationFormOnly==1?'z-index:0 !important;':''}">
 
             <div class="preview-card" id="preview-card-${id}" style="box-shadow:${
