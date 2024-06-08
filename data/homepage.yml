@@ -87,7 +87,7 @@ contact:
     btnAction: 'mailto:immunomark1mas@mail.com'
   
   button2:
-    icon: "icon-arrow-right"
+    icon: "glyphicon-cloud"
     btnText: "Enlace WhyDonate"
     btnAction: 'https://whydonate.com/es/fundraising/prueba-immunomark'
     
