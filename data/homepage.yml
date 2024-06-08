@@ -7,7 +7,9 @@ showcase:
   title: "\n Únete a la lucha contra el cáncer."
   subtitle: "Apoyemos juntos la investigación en medicina de precisión."
   description: "IMMUNOMARK es un proyecto dedicado a avanzar en la investigación del cáncer a través de nuevas tecnologías y la inmunoterapia.
-  Cada euro que dones se destinará íntegramente a apoyar esta investigación. Únete a nuestra causa y marca la diferencia."
+  Cada euro que dones se destinará íntegramente a apoyar esta investigación. Únete a nuestra causa y marca la diferencia.
+  añadir mas añadir masç añadir masç añadir masç añadir masçañadir masçañadir masçañadir masçañadir masçañadir masçañadir masçañadir masç añadir masçañadir 
+  masçañadir masçañadir masçañadir masçañadir masçañadir masçañadir masçañadir masçañadir masçañadir masç añadir masçañadir masçañadir masçañadir masçañadir masç"
   # image:
   #   x: "img/showcase/immunomark-uno-mas.jpg"
   #   _2x: "img/showcase/immunomark-uno-mas.jpg"
@@ -42,7 +44,7 @@ about:
   button:
     icon: "icon-info-fill"
     btnText: "Más sobre nosotros"
-    URL: "https://www.linkedin.com/in/immunomark"
+    URL: "https://ibima.eu/es/project/cimo-02/"
 
   image:
     x: "img/showcase/team.jpg"
@@ -83,7 +85,7 @@ contact:
     
   button:
     icon: "icon-mail-fill"
-    btnText: "Envíanos un mensaje Juanlu"
+    btnText: "Envíanos un mensaje"
     btnAction: 'mailto:contacto@immunomark.org'
     
   email:
