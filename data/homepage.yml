@@ -37,23 +37,27 @@ about:
   enable: true
   title: "¿Quiénes somos?"
   content: 
-    <p class="lead">
-    <strong>Somos un equipo comprometido con la ciencia y la innovación, dedicado a descubrir nuevas soluciones en la lucha contra el cáncer.</p>
-    <p class="lead">
-    <strong>Nuestro enfoque</strong> es utilizar la integración de datos omicos para avanzar en el campo de la inmunoterapia y ofrecer nuevas esperanzas para tratamientos más efectivos.</p>
+    Somos un equipo comprometido con la ciencia y la innovación, dedicado a descubrir nuevas soluciones en la lucha contra el cáncer.
+    Nuestro enfoque</strong> es utilizar la integración de datos omicos para avanzar en el campo de la inmunoterapia y ofrecer nuevas esperanzas para tratamientos más efectivos
   button:
     icon: "icon-info-fill"
     btnText: "Más sobre nosotros"
     URL: "https://ibima.eu/es/project/cimo-02/"
 
+  button2:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://es.linkedin.com/in/juanluisonieva"
+
   image:
     x: "img/showcase/team.jpg"
     _2x: "img/showcase/team-2.jpg"
+    _3x: "img/showcase/Photo-2.jpeg"
 
 # experience
 experience:
   enable: true
-  title: "Nuestra Experiencia"
+  title: "Carrera solidaria"
   description: "Con experiencia en proyectos internacionales y colaboraciones en sectores público y privado, estamos a la vanguardia de la investigación del cáncer."
   button:
     icon: "icon-linkedin-fill"
@@ -64,30 +68,29 @@ experience:
     btnText: "Descarga nuestro informe"
     URL: "/reports/IMMUNOMARK_Report.pdf"
 
-  items:
-    - title: "Investigaciones Publicadas"
-      company: "Oliver, Javier et al. “Fluorometric Quantification of Total Cell-Free DNA as a Prognostic Biomarker in Non-Small-Cell Lung Cancer Patients Treated with Immune Checkpoint Blockade.” Cancers vol. 15,13 3357. 26 Jun. 2023, doi:10.3390/cancers15133357"
-      duration: "Últimos 2 años"
-
-    - title: "Proyectos de Innovación"
-      company: "Colaboración Internacional"
-      duration: "2020 - Presenteeeee"
-
 
 # contact
 contact:
   enable: true
-  title: "Contacta con nosotros"
+  title: "Entidad benéfica"
     
   image:
     x: "img/showcase/logo.jpeg"
     _2x: "img/showcase/logo.jpeg"
-    
+  
+  description: "Toda la recaudación será gestionada por la plataforma WhyDonate. Una vez finalizada, la recaudación será transferida a la Fundación Pública Andaluza para la Investigación de Málaga en Biomedicina y Salud, entidad gestora del Instituto de Investigación Biomédica de Málaga (IBIMA) y Plataforma en Nanomedicina
+  La donación será empleada en el proyecto activo del grupo perteneciente a la Unidad de Gestión Clínica Intercentros de oncología médica de Málaga, concretamente al grupo de Investigación Traslacional en Inmunoterapia del Cáncer (CIMO-02)."
+
   button:
     icon: "icon-mail-fill"
     btnText: "Envíanos un mensaje"
-    btnAction: 'mailto:contacto@immunomark.org'
+    btnAction: 'mailto:immunomark1mas@mail.com'
+  
+  button2:
+    icon: "icon-arrow-right"
+    btnText: "Enlace WhyDonate"
+    btnAction: 'https://whydonate.com/es/fundraising/prueba-immunomark'
     
   email:
-    title: "Email"
-    email: '<a href="mailto:contacto@immunomark.org">contacto@immunomark.org</a>'
+    title: ""
+    email: #'<a href="mailto:immunomark1mas@mail.com">immunomark1mas@mail.com</a>'
