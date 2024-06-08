@@ -1,10 +1,8 @@
 {{ if .Site.Data.homepage.experience.enable }}
-<section class="section" id="experience"  style="padding-top:0% !important">
+<section class="section" id="experience">
   <div class="container">
-    <div class="row">
-      <h2 style="margin-left:20%; position:absolute;">
-        {{ .Site.Data.homepage.experience.title | safeHTML }}</h2>
-    </div>
+        <h2 class="rad-animation-group rad-fade-down rad-waiting rad-animate">{{ .Site.Data.homepage.experience.title | safeHTML }}</h2>
+
     <div class="row row--padded rad-animation-group rad-fade-down flex-column-reverse flex-md-row rad-waiting rad-animate" style="animation-delay: 0.1s; margin-top:min(80px, 30%) !important">
       <div class="col-12 col-md-12 mt-4 mt-md-0 my-md-auto">
               <p class="lead">
