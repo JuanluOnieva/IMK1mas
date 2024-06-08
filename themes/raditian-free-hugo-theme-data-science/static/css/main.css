@@ -10851,7 +10851,7 @@ input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, tex
     }
 
     .section .row.row--padded {
-        margin-top: 80px;
+        margin-top: 10px;
         margin-bottom:80px
     }
 
@@ -10917,7 +10917,7 @@ input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, tex
 
 .section--contact .container {
     background-color: #fff;
-    box-shadow:0 42px 34px -16px rgba(0, 0, 0, .3)
+    box-shadow:0 3px 10px rgba(0, 0, 0, 0.2)
 }
 
 .section li {
