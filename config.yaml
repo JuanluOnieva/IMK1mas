@@ -3,7 +3,7 @@ languageCode: en-us
 theme: raditian-free-hugo-theme-data-science
 params:
   footer:
-    copyright: © Juanlu Onieva. All rights reserved.
+    copyright: © Juan Luis Onieva. All rights reserved.
     site_logo:
       _2x: img/general/business-science-logo.png
       alt: Design & Code - Business Science
@@ -39,6 +39,9 @@ menu:
     - URL: '#contact'
       name: Contacto
       weight: 4
+    - URL: 'https://immunomark1mas-en.netlify.app'
+      name: English
+      weight: 5
   header:
     - URL: '#about'
       name: ¿Quiénes somos?
@@ -49,3 +52,6 @@ menu:
     - URL: '#contact'
       name: Contacto
       weight: 4
+    - URL: 'https://immunomark1mas-en.netlify.app'
+      name: English
+      weight: 5
