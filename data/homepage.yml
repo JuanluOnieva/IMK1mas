@@ -132,7 +132,7 @@ contact:
   button2:
     icon: "glyphicon-cloud"
     btnText: "Enlace WhyDonate"
-    btnAction: 'https://whydonate.com/es/fundraising/prueba-immunomark'
+    btnAction: 'https://whydonate.com/es/fundraising/immunomark-uno-mas'
     
   email:
     title: ""
