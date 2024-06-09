@@ -4,12 +4,13 @@ head:
 # showcase
 showcase:
   enable: true
-  title: "\n Únete a la lucha contra el cáncer."
-  subtitle: "Apoyemos juntos la investigación en medicina de precisión."
+  title: "\nÚnete a la lucha contra el cáncer"
+  subtitle: "Un paciente, una secuencia, una solución"
   description: "IMMUNOMARK es un proyecto dedicado a avanzar en la investigación del cáncer a través de nuevas tecnologías y la inmunoterapia.
-  Cada euro que dones se destinará íntegramente a apoyar esta investigación. Únete a nuestra causa y marca la diferencia.
-  añadir mas añadir masç añadir masç añadir masç añadir masçañadir masçañadir masçañadir masçañadir masçañadir masçañadir masçañadir masç añadir masçañadir 
-  masçañadir masçañadir masçañadir masçañadir masçañadir masçañadir masçañadir masçañadir masçañadir masç añadir masçañadir masçañadir masçañadir masçañadir masç"
+  Cada euro que dones se destinará íntegramente a apoyar esta investigación. <br/><br/>
+  Desde 2019, hemos incluido más de 400 pacientes en nuestro estudio. Nuestra meta es incrementar este número UNO MÁS con cada donación. Con ello podremos analizar la información molecular y descifrar las claves del uso de la inmunoterapia en la lucha contra el cáncer.
+  Colaborar en esta causa acerca la investigación a la práctica clínica y apoya el uso de la medicina de precisión.
+  Y sobre todo, fomenta esperanza real para los pacientes y sus familias."
   # image:
   #   x: "img/showcase/immunomark-uno-mas.jpg"
   #   _2x: "img/showcase/immunomark-uno-mas.jpg"
@@ -37,8 +38,16 @@ about:
   enable: true
   title: "¿Quiénes somos?"
   content: 
-    Somos un equipo comprometido con la ciencia y la innovación, dedicado a descubrir nuevas soluciones en la lucha contra el cáncer.
-    Nuestro enfoque</strong> es utilizar la integración de datos omicos para avanzar en el campo de la inmunoterapia y ofrecer nuevas esperanzas para tratamientos más efectivos
+    Somos un equipo comprometido con la ciencia y la innovación, dedicado a descubrir nuevas soluciones en la lucha contra el cáncer. 
+    Nuestro equipo está compuesto por profesionales altamente cualificados, entre ellos oncólogos, técnicos de laboratorio y científicos especializados en bioinformática y genómica. 
+    Estamos ubicados en la UGCI de Oncología Médica de los Hospitales Universitarios Regional y Virgen de la Victoria.
+
+  content2: 
+    Estudiante del Programa de Doctorado en Biomedicina, Investigación Traslacional y Nuevas Tecnologías en Salud por la Universidad de Málaga. Su tesis doctoral en bioinformática pretende utilizar la integración de datos omicos procedentes de distintos niveles moleculares para avanzar en el campo de la inmunoterapia y ofrecer nuevas esperanzas para tratamientos más efectivos.
+    <br/><br/>
+    Involucrado de forma activa en <b>IMMUNOMARK UNO MÁS</b>, participará con RealBuzz en la Media Maratón de Copenhagen 2024 para promocionar esta causa benéfica. 
+
+
   button:
     icon: "icon-info-fill"
     btnText: "Más sobre nosotros"
@@ -58,7 +67,13 @@ about:
 experience:
   enable: true
   title: "Carrera solidaria"
-  description: "Con experiencia en proyectos internacionales y colaboraciones en sectores público y privado, estamos a la vanguardia de la investigación del cáncer."
+  description: "Nuestra causa <b>IMMUNOMARK: UNO MÁS</b> ha sido seleccionada por RealBuzz como entidad benéfica asociada a la Media Maratón Copenhagen 2024. 
+  Denominado como el 'Hogar de las carreras benéficas', RealBuzz proporciona recursos y soporte para corredores y entidades caritativas, con el objetivo de maximizar el impacto de las donaciones recaudadas a través de las actividades de carrera.
+  <br/><br/>
+  Estar representados en esta carrera nos permitirá romper fronteras y llevar nuestra causa a un ámbito internacional. Además, conectar el apoyo a la investigación científica con la comunidad de corredores nos lleva a un mayor impacto social, uniendo
+  ciencia y deporte. 
+  "
+  
   button:
     icon: "icon-linkedin-fill"
     btnText: "Conoce nuestro trabajo"
@@ -67,6 +82,30 @@ experience:
     icon: "icon-profile-fill"
     btnText: "Descarga nuestro informe"
     URL: "/reports/IMMUNOMARK_Report.pdf"
+
+# education
+education:
+  enable: true
+  title: "IMMUNOMARK"
+  description: "El proyecto IMMUNOMARK se centra en la integración de análisis moleculares para identificar biomarcadores predictivos de la respuesta a la inmunoterapia contra cáncer de pulmón y melanoma metastásico, utilizando tanto biopsias sólidas como líquidas. 
+  Abarca análisis a nivel genómico (mutaciones en el DNA), transcriptómico (expresión de genes) y epigenómico (regulación de la expresión genética).
+  <br/><br/>
+  Hasta la fecha, el proyecto ha contribuido significativamente al campo de la inmunoterapia de precisión, desarrollando nuevas herramientas y metodologías para predecir la eficacia del tratamiento. Aquí presentamos algunas publicaciones en revistas internacionales.
+  Con esta recaudación pretendemos seguir incluyendo pacientes en nuestro estudio y ampliar la mira incluyendo pacientes con otros tipos de cáncer.
+  "
+
+  items:
+    - title: "High IGKC-Expressing Intratumoral Plasma Cells Predict Response to Immune Checkpoint Blockade"
+      company: "Onieva, Juan Luis et al<br/><br/>"
+      duration: "<a href='https://www.mdpi.com/1422-0067/23/16/9124' style='text-decoration; color=#333'>International journal of molecular sciences</a>"
+
+    - title: "Fluorometric Quantification of Total Cell-Free DNA as a Prognostic Biomarker in Non-Small-Cell Lung Cancer Patients Treated with Immune Checkpoint Blockade"
+      company: "Oliver, Javier et al<br/><br/>"
+      duration: "<a href='https://www.mdpi.com/2072-6694/15/13/3357' style='text-decoration; color=#333'>Cancers</a>"
+
+    - title: "Novel Blood Biomarkers for Response Prediction and Monitoring of Stereotactic Ablative Radiotherapy and Immunotherapy in Metastatic Oligoprogressive Lung Cancer"
+      company: "Zafra, Juan et al<br/><br/>"
+      duration: "<a href='https://www.mdpi.com/1422-0067/25/8/4533' style='text-decoration; color=#333'>International journal of molecular sciences</a>"
 
 
 # contact
@@ -78,8 +117,8 @@ contact:
     x: "img/showcase/logo.jpeg"
     _2x: "img/showcase/logo.jpeg"
   
-  description: "Toda la recaudación será gestionada por la plataforma WhyDonate. Una vez finalizada, la recaudación será transferida a la Fundación Pública Andaluza para la Investigación de Málaga en Biomedicina y Salud, entidad gestora del Instituto de Investigación Biomédica de Málaga (IBIMA) y Plataforma en Nanomedicina
-  La donación será empleada en el proyecto activo del grupo perteneciente a la Unidad de Gestión Clínica Intercentros de oncología médica de Málaga, concretamente al grupo de Investigación Traslacional en Inmunoterapia del Cáncer (CIMO-02)."
+  description: "Toda la recaudación será gestionada por la plataforma WhyDonate. Una vez finalizada, la recaudación será transferida a la Fundación Pública Andaluza para la Investigación de Málaga en Biomedicina y Salud, entidad gestora del Instituto de Investigación Biomédica de Málaga (IBIMA) y Plataforma en Nanomedicina.
+  La donación será empleada en el proyecto activo del grupo perteneciente a la Unidad de Gestión Clínica Intercentros de Oncología Médica de Málaga, concretamente al grupo de Investigación Traslacional en Inmunoterapia del Cáncer (CIMO-02)."
 
   button:
     icon: "icon-mail-fill"

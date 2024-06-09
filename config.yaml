@@ -25,6 +25,7 @@ params:
   sections:
     - showcase
     - about
+    - education
     - experience
     - contact
 
@@ -33,25 +34,31 @@ menu:
     - URL: '#about'
       name: ¿Quiénes somos?
       weight: 2
+    - URL: '#education'
+      name: IMMUNOMARK
+      weight: 3
     - URL: '#experience'
       name: Carrera solidaria
-      weight: 3
+      weight: 4
     - URL: '#contact'
       name: Entidad benéfica
-      weight: 4
+      weight: 5
     - URL: 'https://immunomark1mas-en.netlify.app'
       name: English
-      weight: 5
+      weight: 6
   header:
     - URL: '#about'
       name: ¿Quiénes somos?
       weight: 2
+    - URL: '#education'
+      name: IMMUNOMARK
+      weight: 3
     - URL: '#experience'
       name: Carrera solidaria
-      weight: 3
+      weight: 4
     - URL: '#contact'
       name: Entidad benéfica
-      weight: 4
+      weight: 5
     - URL: 'https://immunomark1mas-en.netlify.app'
       name: English
-      weight: 5
+      weight: 6

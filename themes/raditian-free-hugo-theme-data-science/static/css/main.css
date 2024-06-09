@@ -556,7 +556,7 @@ sup {
 }
 
 a {
-    color: #007bff;
+    color: #333;
     background-color:transparent
 }
 
@@ -10592,7 +10592,7 @@ input[type=text]::placeholder, input[type=email]::placeholder {
     top: 0;
     width: 75px;
     height: 100%;
-    z-index: 1;
+    z-index: -2;
     background-color: #edf1f4;
     -webkit-transform: skew(-13deg);
     transform:skew(-13deg)
@@ -10608,7 +10608,7 @@ input[type=text]::placeholder, input[type=email]::placeholder {
 
 .education__title {
     position: relative;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 600;
     z-index:2
 }

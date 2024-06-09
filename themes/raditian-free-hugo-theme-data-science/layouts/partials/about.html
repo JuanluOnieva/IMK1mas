@@ -6,7 +6,7 @@
     <div class="row row--padded rad-animation-group rad-fade-down flex-column-reverse flex-md-row rad-waiting rad-animate" style="animation-delay: 0.1s">
       
       <div class="col-12 col-md-6 mt-4 mt-md-0 my-md-auto">
-        <h3>CIMO-02</h3>
+        <h3>Investigación Traslacional en Inmunoterapia del Cáncer</h3>
         <p class="lead">
           {{ .Site.Data.homepage.about.content | safeHTML }}
         </p>
@@ -26,7 +26,7 @@
           data-src="{{ .Site.Data.homepage.about.image.x | absURL }}"
           data-srcset="{{ .Site.Data.homepage.about.image.x | absURL }} 1x, {{ .Site.Data.homepage.about.image._2x | absURL }} 1x"
           alt="Profile Picture"
-          style="max-width: 100%; margin-top:10%; border-radius: 5%"
+          style="max-width: 100%; margin-top:0%; border-radius: 5%"
         />
       </div>
       
@@ -47,7 +47,7 @@
       <div class="col-12 col-md-7 mt-4 mt-md-0 my-md-auto">
         <h3>Juan Luis Onieva</h3>
         <p class="lead">
-          {{ .Site.Data.homepage.about.content | safeHTML }}
+          {{ .Site.Data.homepage.about.content2 | safeHTML }}
         </p>
         <a
           href="{{ .Site.Data.homepage.about.button2.URL | absURL }}"
