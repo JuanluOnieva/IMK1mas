@@ -9,7 +9,7 @@ showcase:
   description: "IMMUNOMARK es un proyecto dedicado a avanzar en la investigación del cáncer a través de nuevas tecnologías y la inmunoterapia.
   Cada euro que dones se destinará íntegramente a apoyar esta investigación. <br/><br/>
   Desde 2019, hemos incluido más de 400 pacientes en nuestro estudio. Nuestra meta es incrementar este número UNO MÁS con cada donación. Con ello podremos analizar la información molecular y descifrar las claves del uso de la inmunoterapia en la lucha contra el cáncer.
-  Colaborar en esta causa acerca la investigación a la práctica clínica y apoya el uso de la medicina de precisión.
+  Colaborar en esta causa acerca la investigación a la práctica clínica y apoya el campo de la medicina de precisión.
   Y sobre todo, fomenta esperanza real para los pacientes y sus familias."
   # image:
   #   x: "img/showcase/immunomark-uno-mas.jpg"
@@ -68,7 +68,7 @@ experience:
   enable: true
   title: "Carrera solidaria"
   description: "Nuestra causa <b>IMMUNOMARK: UNO MÁS</b> ha sido seleccionada por RealBuzz como entidad benéfica asociada a la Media Maratón Copenhagen 2024. 
-  Denominado como el 'Hogar de las carreras benéficas', RealBuzz proporciona recursos y soporte para corredores y entidades caritativas, con el objetivo de maximizar el impacto de las donaciones recaudadas a través de las actividades de carrera.
+  Denominado como el 'Hogar de las carreras benéficas', RealBuzz proporciona recursos y soporte para corredores y entidades caritativas, con el objetivo de maximizar el impacto de las donaciones recaudadas a través de actividades deportivas.
   <br/><br/>
   Estar representados en esta carrera nos permitirá romper fronteras y llevar nuestra causa a un ámbito internacional. Además, conectar el apoyo a la investigación científica con la comunidad de corredores nos lleva a un mayor impacto social, uniendo
   ciencia y deporte. 
@@ -121,7 +121,7 @@ contact:
     x: "img/showcase/logo.jpeg"
     _2x: "img/showcase/logo.jpeg"
   
-  description: "Toda la recaudación será gestionada por la plataforma WhyDonate. Una vez finalizada, la recaudación será transferida a la Fundación Pública Andaluza para la Investigación de Málaga en Biomedicina y Salud, entidad gestora del Instituto de Investigación Biomédica de Málaga (IBIMA) y Plataforma en Nanomedicina.
+  description: "Toda la recaudación será gestionada por la plataforma WhyDonate. Una vez finalizada, la recaudación será transferida a la Fundación Pública Andaluza para la Investigación de Málaga en Biomedicina y Salud, entidad gestora del Instituto de Investigación Biomédica de Málaga (IBIMA) Plataforma BIONAND.
   La donación será empleada en el proyecto activo del grupo Investigación Traslacional en Inmunoterapia del Cáncer (CIMO-02) perteneciente a la Unidad de Gestión Clínica Intercentros de Oncología Médica de Málaga."
 
   button:
