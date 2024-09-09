@@ -916,7 +916,7 @@ showDonationFormOnly==1?'transparent;':'rgb(0,0,0,0.4);'
                 padding: 0 !important;
             }
             .preview-card {
-                width: 95%; /* The width is 100%, when the viewport is 800px or smaller */
+                min-width: 350px !important;
                 margin-top: 0 !important;
                 height: 100vh !important;
             }
