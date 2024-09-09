@@ -1031,7 +1031,7 @@ if(otherRadio&&otherRadio.checked){var otherAmountInputBox=document.getElementBy
 if(openRadio&&openRadio.checked){var otherAmountInputBox=document.getElementById('open-amount-number-'+id);if(otherAmountInputBox.value!=''&&typeof parseFloat(otherAmountInputBox.value)=='number'){var amount=otherAmountInputBox.value;selectedValue=parseFloat(amount.replace(',','.'));}else{selectedValue=0.0;}}
 return selectedValue;}
 function calculateTotalAmountDropDown(slug,dropDownValue){let fundraiser_donation_values_response=fundraiser_donation_values_object[slug];var selectedAmount=parseFloat(getSelectedValue(slug));var selectItem=dropDownValue;let lang=document.getElementById(`language-code-${slug}`).innerHTML;var tipAmount='';if(selectItem=='Amount'){tipAmount=parseFloat(document.getElementById(`input-tip${slug}`).value);}else{tipAmount=parseFloat(document.getElementById(`select-dropdown-${slug}`).value);}
-if(selectedAmount==0){tipAmount=1.0;}
+if(selectedAmount==0){tipAmount=0.0;}
 if(isNaN(tipAmount)){tipAmount=0.0;}
 var totalAmount=selectedAmount+tipAmount;var tipLabel=document.getElementById('total-charge-label'+slug);totalAmount=(Math.round(totalAmount*100)/100).toFixed(2);tipLabel.innerHTML='';let totalChargeLabel=document.getElementById(`total-charge-label${slug}`);totalChargeLabel.innerHTML=_e('Total Charge:',lang)+
 ' '+
