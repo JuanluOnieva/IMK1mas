@@ -599,7 +599,7 @@ const donation_window_modal_content=`
         <div id="language-code-${id}" style="display:none;">${language_code}</div>
         <div id="source-${id}" style="display:none;">${source}</div>
 
-        <div class="preview" id="preview-${id}" style="min-width:350px; margin-left: ${
+        <div class="preview" id="preview-${id}" style="min-width:300px; margin-left: ${
 showDonationFormOnly==1?'0px;':'30px;'
 }; ${showDonationFormOnly==1?'z-index:0 !important;':''}">
 
