@@ -10,9 +10,7 @@ params:
       x: img/general/business-science-logo.png
   googleAnalyticsID: ''
   logo:
-    text1: IMMUNOMARK
-    text2: UNO MÁS
-    img: img/logo3.png
+    img: img/showcase/Logo_UBA.png
   plugins:
     css:
       - URL: css/main.css
@@ -32,33 +30,33 @@ params:
 menu:
   footer:
     - URL: '#about'
-      name: ¿Quiénes somos?
+      name: Equipo UBA
       weight: 2
     - URL: '#education'
-      name: IMMUNOMARK
+      name: Nuestro trabajo
       weight: 3
     - URL: '#experience'
-      name: Carrera solidaria
+      name: Contacto
       weight: 4
     - URL: '#contact'
-      name: Entidad benéfica
+      name: Calendario UBA
       weight: 5
-    - URL: 'https://immunomark1mas-en.netlify.app'
-      name: English
+    - URL: 'https://fundacioncitac.com/'
+      name: Fundación CITAC
       weight: 6
   header:
     - URL: '#about'
-      name: ¿Quiénes somos?
+      name: Equipo UBA
       weight: 2
     - URL: '#education'
-      name: IMMUNOMARK
+      name: Nuestro trabajo
       weight: 3
     - URL: '#experience'
-      name: Carrera solidaria
+      name: Contacto
       weight: 4
     - URL: '#contact'
-      name: Entidad benéfica
+      name: Calendario UBA
       weight: 5
-    - URL: 'https://immunomark1mas-en.netlify.app'
-      name: English
+    - URL: 'https://fundacioncitac.com/'
+      name: Fundación CITAC
       weight: 6

@@ -1,12 +1,10 @@
 {{ if .Site.Data.homepage.about.enable }}
-<section class="section section--border-bottom" id="about" style="padding-top: 40px;">
+<section class="section section--border-bottom" id="about">
   <div class="container">
     <h2 class="rad-animation-group rad-fade-down rad-waiting rad-animate">{{ .Site.Data.homepage.about.title | safeHTML }}</h2>
-
     <div class="row row--padded rad-animation-group rad-fade-down flex-column-reverse flex-md-row rad-waiting rad-animate" style="animation-delay: 0.1s">
       
       <div class="col-12 col-md-6 mt-4 mt-md-0 my-md-auto">
-        <h3>Investigación Traslacional en Inmunoterapia del Cáncer</h3>
         <p class="lead">
           {{ .Site.Data.homepage.about.content | safeHTML }}
         </p>
@@ -26,41 +24,35 @@
           data-src="{{ .Site.Data.homepage.about.image.x | absURL }}"
           data-srcset="{{ .Site.Data.homepage.about.image.x | absURL }} 1x, {{ .Site.Data.homepage.about.image._2x | absURL }} 1x"
           alt="Profile Picture"
-          style="max-width: 100%; margin-top:0%; border-radius: 5%"
+          style="max-width: 80%; margin-top:0%; border-radius: 5%"
         />
       </div>
       
     </div>
     
-    <div class="row row--padded rad-animation-group rad-fade-down rad-waiting rad-animate" style="animation-delay: 0.1s;">
-      
-      <div class="col-12 col-md-5 pl-md-0 text-left">
-        <img
-          class="lozad img-responsive image-right-overflow"
-          src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-          data-src="{{ .Site.Data.homepage.about.image2.x | absURL }}"
-          data-srcset="{{ .Site.Data.homepage.about.image._3x | absURL }} 1x, {{ .Site.Data.homepage.about.image._2x | absURL }} 1x"
-          alt="Profile Picture"
-          style="max-width: 100%; margin-left:0%; margin-top:10%; border-radius: 50%"
-        />
+      <div class="team-grid">
+      {{ range .Site.Data.homepage.about.members }}
+      <div class="vcard">
+        <!-- <img src="{{ .image }}" alt="{{ .name }}" class="photo"> -->
+        <h3 class="fn">{{ .name }}</h3>
+        <p class="title">{{ .position }}</p>
+        <div class="contact-info">
+          {{ if .email }}
+          <a href="mailto:{{ .email }}" class="email">{{ .email }}</a>
+          {{ end }}
+          {{ if .phone }}
+          <a href="tel:{{ .phone }}" class="tel">{{ .phone }}</a>
+          {{ end }}
+          {{ if .linkedin }}
+          <a href="{{ .linkedin }}" target="_blank" class="url">LinkedIn</a>
+          {{ end }}
+        </div>
       </div>
-      <div class="col-12 col-md-7 mt-4 mt-md-0 my-md-auto">
-        <h3>Juan Luis Onieva</h3>
-        <p class="lead">
-          {{ .Site.Data.homepage.about.content2 | safeHTML }}
-        </p>
-        <a
-          href="{{ .Site.Data.homepage.about.button2.URL | absURL }}"
-          target="_blank"
-          class="btn btn-primary"
-        >
-          <i class="{{ .Site.Data.homepage.about.button2.icon }}"></i>
-          {{ .Site.Data.homepage.about.button2.btnText }}
-        </a>
-      </div>
-      
+      {{ end }}
     </div>
-    
+
+
+    </div>
   </div>
 </section>
 {{ end }}

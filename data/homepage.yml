@@ -1,50 +1,35 @@
 head:
-  title: "IMMUNOMARK: POR UNO MÁS"
+  title: "UBA - CITAC"
 
 # showcase
 showcase:
   enable: true
-  title: "\nÚnete a la lucha contra el cáncer"
-  subtitle: "Un paciente, una secuencia, una solución"
-  description: "IMMUNOMARK es un proyecto dedicado a avanzar en la investigación del cáncer a través de nuevas tecnologías y la inmunoterapia.
-  Cada euro que dones se destinará íntegramente a apoyar esta investigación. <br/><br/>
-  Desde 2019, hemos incluido más de 400 pacientes en nuestro estudio. Nuestra meta es incrementar este número UNO MÁS con cada donación. Con ello podremos analizar la información molecular y descifrar las claves del uso de la inmunoterapia en la lucha contra el cáncer.
-  Colaborar en esta causa acerca la investigación a la práctica clínica y apoya el campo de la medicina de precisión.
-  Y sobre todo, fomenta esperanza real para los pacientes y sus familias.
-  <br/><br/>
-  NOTA: ¡Primer objetivo de recaudación cumplido! Ahora, con el mismo compromiso, establecemos una nueva meta de recaudación para seguir avanzando.
-  "
-  # image:
-  #   x: "img/showcase/immunomark-uno-mas.jpg"
-  #   _2x: "img/showcase/immunomark-uno-mas.jpg"
-  # imageMobile:
-  #   x: "img/showcase/immunomark-uno-mas.jpg"
-  #   _2x: "img/showcase/immunomark-uno-mas.jpg"
-  content: 
-        <div        id="widget-here-63NW3"        class="widget-here"        data-shortcode="63NW3"        data-lang="es"        data-success_url=""        data-fail_url=""        value="donation-widget"   ></div><link    rel="stylesheet"    href="css/wdplugin-style.css"/><script    src="js/wp_styling.js"    type="text/javascript"></script>
+  title: "\nBioinformática aplicada al desarrollo científico y tecnológico"
+  subtitle: ""
+  description: "La Unidad de Bioinformática Aplicada del CITAC es un espacio interdisciplinario dedicado al análisis, integración e interpretación de datos biológicos complejos mediante herramientas computacionales avanzadas. Nuestro objetivo es transformar grandes volúmenes de datos en conocimiento accionable que impulse la investigación científica, la innovación tecnológica y la toma de decisiones basada en evidencia.
+  Trabajamos en la intersección entre la biología, la informática, la estadística y las ciencias de datos, colaborando estrechamente con grupos de investigación, instituciones académicas y aliados estratégicos a nivel nacional e internacional..
+  <br/><br/>"
+  
+  button:
+    icon: "icon-info-fill"
+    btnText: "Solicitud de Análisis"
+    URL: "https://tally.so/r/kd6KZr"
 
-  #button:
-  #  icon: "icon-donation-fill"
-  #  btnText: "Haz una donación"
-  #  URL: "https://immunomark1mas.netlify.app/#contact"
-
-
-  # socialLinks:
-  #   - icon: "linkedin"
-  #     URL: "https://www.linkedin.com/in/immunomark"
-  # 
-  #   - icon: "twitter"
-  #     URL: "https://twitter.com/immunomark"
 
 # about
 about:
   enable: true
-  title: "¿Quiénes somos?"
+  title: "\n¿Quiénes somos?"
   content: 
-    Somos un equipo comprometido con la ciencia y la innovación, dedicado a descubrir nuevas soluciones en la lucha contra el cáncer. 
-    Nuestro equipo está compuesto por profesionales altamente cualificados, entre ellos oncólogos, técnicos de laboratorio y científicos especializados en bioinformática y genómica. 
-    Estamos ubicados en la UGCI de Oncología Médica de los Hospitales Universitarios Regional y Virgen de la Victoria.
-
+    "Somos un equipo multidisciplinario de investigadores, analistas y profesionales especializados en bioinformática, biología computacional, genómica, transcriptómica, proteómica y análisis de datos ómicos. Formamos parte del Centro de Investigación en Tecnologías y Ciencias Aplicadas (CITAC), compartiendo su compromiso con la excelencia científica, la innovación y la formación de talento humano.
+    <br/><br/>
+    Nuestra unidad se caracteriza por:
+    <ul class='about-list'>
+    <li>Un enfoque científico riguroso y reproducible.</li>
+    <li>El uso de metodologías y estándares internacionales.</li>
+    <li>La colaboración abierta y el trabajo en red.</li>
+    <li>La adaptación de soluciones bioinformáticas a problemáticas reales.</li>
+    </ul>"
   content2: 
     Estudiante del Programa de Doctorado en Biomedicina, Investigación Traslacional y Nuevas Tecnologías en Salud por la Universidad de Málaga. Su tesis doctoral en bioinformática pretende utilizar la integración de datos ómicos procedentes de distintos niveles moleculares para avanzar en el campo de la inmunoterapia y ofrecer nuevas esperanzas para tratamientos más efectivos.
     <br/><br/>
@@ -53,8 +38,8 @@ about:
 
   button:
     icon: "icon-info-fill"
-    btnText: "Más sobre nosotros"
-    URL: "https://ibima.eu/es/project/cimo-02/"
+    btnText: "Cartera de Servicios"
+    URL: "https://docs.google.com/spreadsheets/d/1hymfdDbCpooitwp6uPhfmyCrHXvpEHGHCsCrxe1LtQA/edit?usp=share_link"
 
   button2:
     icon: "icon-linkedin-fill"
@@ -62,34 +47,40 @@ about:
     URL: "https://www.linkedin.com/in/juanluisonieva"
 
   image:
-    x: "img/showcase/team.jpg"
+    x: "img/showcase/IMG_7581.jpg"
     _2x: "img/showcase/team-2.jpg"
     _3x: "img/showcase/Photo-2.jpeg"
+
+  members:
+    - name: "Dr. Juanlu Onieva"
+      position: "Coordinador"
+      image: "images/team/juan.jpg"
+      email: "juanluisonieva@fundacioncitac.com"
+      linkedin: "https://www.linkedin.com/in/juanluisonieva"
+
+    - name: "Alberto Ríos"
+      position: "Bioinformático"
+      image: "images/team/maria.jpg"
+      email: "alberto.rimu.1999@gmail.com"
+      linkedin: "linkedin.com/in/albertorimu1999"
+
+    - name: "Antonio Cantarero"
+      position: "Bioinformático"
+      image: "images/team/maria.jpg"
+      email: "cantarero.bioinfo@gmail.com "
+      linkedin: "https://es.linkedin.com/in/antonio-cantarero-cuenca-24bb46137"
 
 # experience
 experience:
   enable: true
-  title: "Carrera solidaria"
-  description: "Nuestra causa <b>IMMUNOMARK: UNO MÁS</b> ha sido seleccionada por RealBuzz como entidad benéfica asociada a la Media Maratón Copenhagen 2024. 
-  Denominado como el 'Hogar de las carreras benéficas', RealBuzz proporciona recursos y soporte para corredores y entidades caritativas, con el objetivo de maximizar el impacto de las donaciones recaudadas a través de actividades deportivas.
-  <br/><br/>
-  Estar representados en esta carrera nos permitirá romper fronteras y llevar nuestra causa a un ámbito internacional. Además, conectar el apoyo a la investigación científica con la comunidad de corredores nos lleva a un mayor impacto social, uniendo
-  ciencia y deporte. 
-  "
+  title: "Contacto"
+  description: "Puedes contactar a través de ubacitac@gmail.com."
   
-  button:
-    icon: "icon-linkedin-fill"
-    btnText: "Conoce nuestro trabajo"
-    URL: "https://www.linkedin.com/in/immunomark"
-  button2:
-    icon: "icon-profile-fill"
-    btnText: "Descarga nuestro informe"
-    URL: "/reports/IMMUNOMARK_Report.pdf"
-
 # education
 education:
   enable: true
-  title: "IMMUNOMARK"
+  title: "Publicaciones"
+  title2: "Proyectos"
   description: "El proyecto IMMUNOMARK se centra en la integración de análisis moleculares para identificar biomarcadores predictivos de la respuesta a la inmunoterapia contra cáncer de pulmón y melanoma metastásico, utilizando tanto biopsias sólidas como líquidas. 
   Abarca análisis a nivel genómico (mutaciones en el DNA), transcriptómico (expresión de genes) y epigenómico (regulación de la expresión genética).
   <br/><br/>
@@ -98,45 +89,50 @@ education:
   "
 
   items:
-    - title: "High IGKC-Expressing Intratumoral Plasma Cells Predict Response to Immune Checkpoint Blockade"
-      company: "Onieva, Juan Luis et al<br/><br/>"
-      duration: "<a href='https://www.mdpi.com/1422-0067/23/16/9124' target='_blank' style='text-decoration; color=#333'>International journal of molecular sciences</a>"
 
-    - title: "Fluorometric Quantification of Total Cell-Free DNA as a Prognostic Biomarker in Non-Small-Cell Lung Cancer Patients Treated with Immune Checkpoint Blockade"
-      company: "Oliver, Javier et al<br/><br/>"
-      duration: "<a href='https://www.mdpi.com/2072-6694/15/13/3357' target='_blank' style='text-decoration; color=#333'>Cancers</a>"
+    - title: "Integrative multiomic profiling of cfDNA methylation and EV-miRNAs identifies immunotherapy-outcome molecular subtypes in NSCLC "
+      company: "Onieva, Juan Luis et al<br/><br/>"
+      duration: "<a href='https://jitc.bmj.com/content/14/1/e013592' target='_blank' style='text-decoration; color=#333'> J Immunother Cance 2026</a>"
 
     - title: "Novel Blood Biomarkers for Response Prediction and Monitoring of Stereotactic Ablative Radiotherapy and Immunotherapy in Metastatic Oligoprogressive Lung Cancer"
       company: "Zafra, Juan et al<br/><br/>"
-      duration: "<a href='https://www.mdpi.com/1422-0067/25/8/4533' target='_blank' style='text-decoration; color=#333'>International journal of molecular sciences</a>"
+      duration: "<a href='https://www.mdpi.com/1422-0067/25/8/4533' target='_blank' style='text-decoration; color=#333'>Int. J. Mol. Sci. 2024</a>"
+
+    - title: "Epigenetic profiles in blood and adipose tissue: identifying strong correlations in morbidly obese and non-obese patients"
+      company: "Cantarero-Cuenca, Antonio et al<br/><br/>"
+      duration: "<a href='https://doi.org/10.1007/s00109-024-02475-z' target='_blank' style='text-decoration; color=#333'>J Mol Med (Berl) 2024.</a>"
+
+    - title: "Epigenetic Marks as Predictors of Metabolic Response to Bariatric Surgery: Validation from an Epigenome Wide Association Study"
+      company: "Gutiérrez-Repiso, Carolina et al<br/><br/>"
+      duration: "<a href='https://www.mdpi.com/1422-0067/24/19/14778' target='_blank' style='text-decoration; color=#333'>Int. J. Mol. Sci. 2023.</a>"
+
+    - title: "Fluorometric Quantification of Total Cell-Free DNA as a Prognostic Biomarker in Non-Small-Cell Lung Cancer Patients Treated with Immune Checkpoint Blockade"
+      company: "Oliver, Javier et al<br/><br/>"
+      duration: "<a href='https://www.mdpi.com/2072-6694/15/13/3357' target='_blank' style='text-decoration; color=#333'>Cancers 2023</a>"
 
     - title: "Association of Circular RNA and Long Non-Coding RNA Dysregulation with the Clinical Response to Immune Checkpoint Blockade in Cutaneous Metastatic Melanoma."
       company: "Oliver, Javier et al<br/><br/>"
-      duration: "<a href='https://www.mdpi.com/2227-9059/10/10/2419' target='_blank' style='text-decoration; color=#333'>Biomedicines</a>"
+      duration: "<a href='https://www.mdpi.com/2227-9059/10/10/2419' target='_blank' style='text-decoration; color=#333'>Biomedicines 2022</a>"
+
+    - title: "High IGKC-Expressing Intratumoral Plasma Cells Predict Response to Immune Checkpoint Blockade"
+      company: "Onieva, Juan Luis et al<br/><br/>"
+      duration: "<a href='https://www.mdpi.com/1422-0067/23/16/9124' target='_blank' style='text-decoration; color=#333'>Int. J. Mol. Sci. 2022</a>"
+
+  items2:
+    - title: "Título"
+      company: "IP: <br/><br/>"
+      duration: "Financiación"
 
 
 # contact
 contact:
   enable: true
-  title: "Entidad benéfica"
+  title: "Calendario UBA"
     
-  image:
-    x: "img/showcase/logo.jpeg"
-    _2x: "img/showcase/logo.jpeg"
-  
-  description: "Toda la recaudación será gestionada por la plataforma WhyDonate. Una vez finalizada, la recaudación será transferida a la Fundación Pública Andaluza para la Investigación de Málaga en Biomedicina y Salud, entidad gestora del Instituto de Investigación Biomédica de Málaga (IBIMA) Plataforma BIONAND.
-  La donación será empleada en el proyecto activo del grupo Investigación Traslacional en Inmunoterapia del Cáncer (CIMO-02) perteneciente a la Unidad de Gestión Clínica Intercentros de Oncología Médica de Málaga."
-
+  content: 
+    '<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Europe%2FMadrid&showPrint=0&src=dWJhY2l0YWNAZ21haWwuY29t&src=YTRhMGIzZTI3ZDg5YTlkOGJkYjQ2MGYwNWY0MjYzOWQwMjlkNGUyN2NjZGQ2ZmE2Yjc3Y2ZhZDA1ZjcxNDg2N0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=MDM5MDFiN2E5OGJmZTFlYWJjNWQ4MzAxODRkOGIxMjVjM2E5YmU0Y2I2NjVlZjUzMDFjYjQ0MjlmZDUzMmMyNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23039be5&color=%23b39ddb&color=%23009688" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>'
   button:
-    icon: "icon-mail-fill"
-    btnText: "Envíanos un mensaje"
-    btnAction: 'mailto:immunomark1mas@mail.com'
-  
-  button2:
-    icon: "glyphicon-cloud"
-    btnText: "Enlace WhyDonate"
-    btnAction: 'https://whydonate.com/es/fundraising/immunomark-uno-mas'
-    
-  email:
-    title: ""
-    email: #'<a href="mailto:immunomark1mas@mail.com">immunomark1mas@mail.com</a>'
+    icon: "icon-calendar"
+    btnText: "Juanlu Onieva 1:1"
+    URL: "https://calendly.com/juanluonieva/juanlu-1-1"
+
