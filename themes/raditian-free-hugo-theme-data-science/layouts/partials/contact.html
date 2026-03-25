@@ -4,15 +4,72 @@
         <div class="contact">
             <h2>{{ .Site.Data.homepage.contact.title }}</h2>
             <div class="row pt-2">
-                {{ .Site.Data.homepage.contact.content | safeHTML }}
-            </div>
-            <div class="row pt-2">
-                <div class="col-auto">
-                    <a href="{{ .Site.Data.homepage.contact.button.URL | absURL }}"
-                    target="_blank" class="btn btn-primary">
-                    <i class="{{ .Site.Data.homepage.contact.button.icon }}"></i>
+                
+                
+                  
+                    <img
+                      class="lozad img-responsive image-left-overflow"
+                      src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+                      data-src="{{ .Site.Data.homepage.contact.image.x | absURL }}"
+                      data-srcset="{{ .Site.Data.homepage.contact.image.x | absURL }} 1x, {{ .Site.Data.homepage.contact.image._2x | absURL }} 1x"
+                      alt="Profile Picture"
+                      style="max-width: 90%; max-height:450px!important"
+                    />
+                  
+               
+              
+                <!--
+                <div class="col-12 col-lg-7">
+                    <form action="{{ .Site.Data.homepage.contact.form.action }}" method="{{ .Site.Data.homepage.contact.form.method }}">
+                        <div class="row">
+                            <div class="col-12 col-sm-6">
+                                <input type="text" name="" id="full_name"
+                                       placeholder="{{ .Site.Data.homepage.contact.form.full_name }}"/>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <input type="text" name="" id="email"
+                                       placeholder="{{ .Site.Data.homepage.contact.form.email }}"/>
+                            </div>
+                        </div>
+                        <div class="row pt-4">
+                            <div class="col-12">
+                                <textarea name="" id="message"
+                                          cols="30" rows="3" placeholder="{{ .Site.Data.homepage.contact.form.message }}"></textarea>
+                            </div>
+                        </div>
+                        <div class="row pt-4">
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary">
+                                    <i class="{{ .Site.Data.homepage.contact.button.icon }}"></i>
+                                    {{ .Site.Data.homepage.contact.button.btnText }}
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                -->
+                <div class="col-12 col-sm-12 col-md-8 col-lg-7 col-xl-6 contact__info" style="padding:0px">
+                <p class="lead" style="margin-top:10% !important">
+                    {{ .Site.Data.homepage.contact.description | safeHTML }}
+                </p>
+                <br/>
+                    <a class="btn btn-primary" style="margin-top:1%" href='{{ .Site.Data.homepage.contact.button.btnAction }}'>
+                        <i class="{{ .Site.Data.homepage.contact.button.icon }}"></i>
                         {{ .Site.Data.homepage.contact.button.btnText }}
                     </a>
+                    <br/><br/>
+                   <a href="{{ .Site.Data.homepage.contact.button2.btnAction }}" class="btn btn-frameless"
+                   target="_blank" style="margin-top:1%">
+                    <i class="{{ .Site.Data.homepage.contact.button2.icon }}"></i>
+                    {{ .Site.Data.homepage.contact.button2.btnText }}
+                </a>
+                    
+                    <h4>{{ .Site.Data.homepage.contact.phone.title }}</h4>
+                    <span>{{ .Site.Data.homepage.contact.phone.number }}</span>
+                    <h4>{{ .Site.Data.homepage.contact.email.title }}</h4>
+                    <span>{{ .Site.Data.homepage.contact.email.email | safeHTML }}</span>
+                    <h4>{{ .Site.Data.homepage.contact.address.title }}</h4>
+                    <span>{{ .Site.Data.homepage.contact.address.address | safeHTML }}</span>
                 </div>
             </div>
         </div>

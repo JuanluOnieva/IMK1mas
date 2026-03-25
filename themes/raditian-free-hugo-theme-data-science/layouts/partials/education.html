@@ -1,95 +1,5 @@
 {{ if .Site.Data.homepage.education.enable }}
 <section id="education" class="section section--border-bottom rad-animation-group">
-  <div class="container">
-    <div class="row rad-fade-down">
-      <div class="col-12">
-        <h2 class="section-title">{{ .Site.Data.homepage.education.title }}</h2>
-        <!-- Rail/Carril de publicaciones -->
-        <div class="publications-rail-wrapper">
-          <button class="rail-nav rail-nav--left" aria-label="Anterior">
-            &#8592;
-          </button>
-          
-          <div class="publications-rail">
-            {{ range .Site.Data.homepage.education.items }}
-            <div class="publication-card">
-              <div class="publication-card__date">
-                {{ .duration | safeHTML }}
-              </div>
-              <h3 class="publication-card__title">
-                {{ .title | safeHTML }}
-              </h3>
-              <div class="publication-card__company">
-                {{ .company | safeHTML }}
-              </div>
-              {{ if .description }}
-              <p class="publication-card__description">
-                {{ .description | safeHTML }}
-              </p>
-              {{ end }}
-              {{ if .link }}
-              <a href="{{ .link }}" class="publication-card__link" target="_blank">
-                Ver publicación <i class="icon-external-link"></i>
-              </a>
-              {{ end }}
-            </div>
-            {{ end }}
-          </div>
-          
-          <button class="rail-nav rail-nav--right" aria-label="Siguiente">
-            &#8594;
-          </button>
-        </div>
-      </div>
-    </div>
-
-    <div class="row rad-fade-down">
-      <div class="col-12">
-        <h2 class="section-title">{{ .Site.Data.homepage.education.title2 }}</h2>
-        <!-- Rail/Carril de publicaciones -->
-        <div class="publications-rail-wrapper">
-          <button class="rail-nav rail-nav--left" aria-label="Anterior">
-            &#8592;
-          </button>
-          <div class="publications-rail">
-            {{ range .Site.Data.homepage.education.items2 }}
-            <div class="publication-card">
-              <div class="publication-card__date">
-                {{ .duration | safeHTML }}
-              </div>
-              <h3 class="publication-card__title">
-                {{ .title | safeHTML }}
-              </h3>
-              <div class="publication-card__company">
-                {{ .company | safeHTML }}
-              </div>
-              {{ if .description }}
-              <p class="publication-card__description">
-                {{ .description | safeHTML }}
-              </p>
-              {{ end }}
-              {{ if .link }}
-              <a href="{{ .link }}" class="publication-card__link" target="_blank">
-                Ver publicación <i class="icon-external-link"></i>
-              </a>
-              {{ end }}
-            </div>
-            {{ end }}
-          </div>
-          
-          <button class="rail-nav rail-nav--right" aria-label="Siguiente">
-            &#8594;
-          </button>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</section>
-{{ end }}
-
-<!-- {{ if .Site.Data.homepage.education.enable }}
-<section id="education" class="section section--border-bottom rad-animation-group">
     <div class="container">
         <div class="row flex-column-reverse flex-md-row rad-fade-down">
             <div class="col-12 col-sm-6 mt-5 mt-sm-0">
@@ -110,4 +20,4 @@
         </div>
     </div>
 </section>
-{{ end }} -->
+{{ end }}
